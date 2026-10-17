@@ -1,0 +1,1172 @@
+{
+  "_generated": "Generated from examples/*/index.html by npm run generate. Do not edit.",
+  "assets": [
+    {
+      "id": "west-riverside-arc-ifc4",
+      "name": "arc_ifc4.ifc",
+      "format": "IFC",
+      "bytes": 80937122,
+      "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital/arc_ifc4.ifc",
+      "sourceUrl": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/blob/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital/arc_ifc4.ifc",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "noticeUrl": "https://viewer.flinker.app/examples/component-lookup/index.html#example-notices",
+      "attribution": "Solihin, W. West Riverside Hospital IFC Models. OpenIFC Model Repository, University of Auckland. Distributed in IFC-Bench by Sylvain Hellin. CC BY 3.0.",
+      "notes": "Original architectural IFC4 export, imported unchanged. Only the architectural model is loaded.",
+      "sha256": "230afa4d72a59c9ce18cdd9a7bc7c5c3e409a46078de6e14b19741b4cf92cf09"
+    },
+    {
+      "id": "bim-whale-advanced",
+      "name": "AdvancedProject.ifc",
+      "format": "IFC",
+      "bytes": 44337371,
+      "sha256": "86b068a7ca6947e398c1daaa8bede9d31048c3990adc308429faeb56ee01db94",
+      "url": "https://raw.githubusercontent.com/andrewisen/bim-whale-ifc-samples/595fa90e3af7120d004fcb37a79d8657f1d1c9c2/AdvancedProject/IFC/AdvancedProject.ifc",
+      "sourceUrl": "https://github.com/andrewisen/bim-whale-ifc-samples/blob/595fa90e3af7120d004fcb37a79d8657f1d1c9c2/AdvancedProject/IFC/AdvancedProject.ifc",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/andrewisen/bim-whale-ifc-samples/blob/595fa90e3af7120d004fcb37a79d8657f1d1c9c2/LICENSE",
+      "noticeUrl": "https://viewer.flinker.app/examples/floorplans/index.html#example-notices",
+      "attribution": "BIM Whale Advanced Project. Copyright (c) 2020 André \"MG\" Wisén.",
+      "notes": "Original IFC2x3 file; contents unchanged."
+    },
+    {
+      "id": "west-riverside-elec-ifc4",
+      "name": "elec_ifc4.ifc",
+      "format": "IFC",
+      "bytes": 4435308,
+      "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital/elec_ifc4.ifc",
+      "sourceUrl": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/blob/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital/elec_ifc4.ifc",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "noticeUrl": "https://viewer.flinker.app/examples/west-riverside-hospital/index.html#example-notices",
+      "attribution": "Solihin, W. West Riverside Hospital IFC Models. OpenIFC Model Repository, University of Auckland. Distributed in IFC-Bench by Sylvain Hellin. CC BY 3.0.",
+      "notes": "Imported unchanged. Only the IFC4 export of each discipline is included."
+    },
+    {
+      "id": "west-riverside-fire-ifc4",
+      "name": "fire_ifc4.ifc",
+      "format": "IFC",
+      "bytes": 905021,
+      "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital/fire_ifc4.ifc",
+      "sourceUrl": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/blob/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital/fire_ifc4.ifc",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "noticeUrl": "https://viewer.flinker.app/examples/west-riverside-hospital/index.html#example-notices",
+      "attribution": "Solihin, W. West Riverside Hospital IFC Models. OpenIFC Model Repository, University of Auckland. Distributed in IFC-Bench by Sylvain Hellin. CC BY 3.0.",
+      "notes": "Imported unchanged. Only the IFC4 export of each discipline is included."
+    },
+    {
+      "id": "west-riverside-mech-ifc4",
+      "name": "mech_ifc4.ifc",
+      "format": "IFC",
+      "bytes": 73047260,
+      "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital/mech_ifc4.ifc",
+      "sourceUrl": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/blob/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital/mech_ifc4.ifc",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "noticeUrl": "https://viewer.flinker.app/examples/west-riverside-hospital/index.html#example-notices",
+      "attribution": "Solihin, W. West Riverside Hospital IFC Models. OpenIFC Model Repository, University of Auckland. Distributed in IFC-Bench by Sylvain Hellin. CC BY 3.0.",
+      "notes": "Imported unchanged. Only the IFC4 export of each discipline is included."
+    },
+    {
+      "id": "west-riverside-plumb-ifc4",
+      "name": "plumb_ifc4.ifc",
+      "format": "IFC",
+      "bytes": 23762808,
+      "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital/plumb_ifc4.ifc",
+      "sourceUrl": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/blob/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital/plumb_ifc4.ifc",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "noticeUrl": "https://viewer.flinker.app/examples/west-riverside-hospital/index.html#example-notices",
+      "attribution": "Solihin, W. West Riverside Hospital IFC Models. OpenIFC Model Repository, University of Auckland. Distributed in IFC-Bench by Sylvain Hellin. CC BY 3.0.",
+      "notes": "Imported unchanged. Only the IFC4 export of each discipline is included."
+    },
+    {
+      "id": "west-riverside-sprinkle-ifc4",
+      "name": "sprinkle_ifc4.ifc",
+      "format": "IFC",
+      "bytes": 33990094,
+      "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital/sprinkle_ifc4.ifc",
+      "sourceUrl": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/blob/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital/sprinkle_ifc4.ifc",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "noticeUrl": "https://viewer.flinker.app/examples/west-riverside-hospital/index.html#example-notices",
+      "attribution": "Solihin, W. West Riverside Hospital IFC Models. OpenIFC Model Repository, University of Auckland. Distributed in IFC-Bench by Sylvain Hellin. CC BY 3.0.",
+      "notes": "Imported unchanged. Only the IFC4 export of each discipline is included."
+    },
+    {
+      "id": "west-riverside-str-ifc4",
+      "name": "str_ifc4.ifc",
+      "format": "IFC",
+      "bytes": 6484576,
+      "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital/str_ifc4.ifc",
+      "sourceUrl": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/blob/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital/str_ifc4.ifc",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "noticeUrl": "https://viewer.flinker.app/examples/west-riverside-hospital/index.html#example-notices",
+      "attribution": "Solihin, W. West Riverside Hospital IFC Models. OpenIFC Model Repository, University of Auckland. Distributed in IFC-Bench by Sylvain Hellin. CC BY 3.0.",
+      "notes": "Imported unchanged. Only the IFC4 export of each discipline is included."
+    },
+    {
+      "id": "s1-structure",
+      "name": "O-S1-CON-Structural engineering - Constructie.ifc",
+      "format": "IFC",
+      "bytes": 7305371,
+      "url": "https://raw.githubusercontent.com/Geonovum/GeoBIM_Georefereren/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_B%26U/Project%20S1/O-S1-CON-Structural%20engineering%20-%20Constructie.ifc",
+      "sourceUrl": "https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_B%26U/Project%20S1/O-S1-CON-Structural%20engineering%20-%20Constructie.ifc",
+      "license": "W3C",
+      "licenseUrl": "https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/LICENSE",
+      "noticeUrl": "https://viewer.flinker.app/examples/s1-ids/index.html#example-notices",
+      "attribution": "Geonovum GeoBIM georeferencing practice dataset and original model authors. W3C Software and Document license as published in the source repository. Sixty5 / Building Field S1, Strijp-S.",
+      "notes": "Original source bytes; contents unchanged."
+    },
+    {
+      "id": "s1-facade",
+      "name": "O-S1-BWK-BIM prefab facade - BIM prefabgevel.ifc",
+      "format": "IFC",
+      "bytes": 5984438,
+      "url": "https://raw.githubusercontent.com/Geonovum/GeoBIM_Georefereren/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_B%26U/Project%20S1/O-S1-BWK-BIM%20prefab%20facade%20-%20BIM%20prefabgevel.ifc",
+      "sourceUrl": "https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_B%26U/Project%20S1/O-S1-BWK-BIM%20prefab%20facade%20-%20BIM%20prefabgevel.ifc",
+      "license": "W3C",
+      "licenseUrl": "https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/LICENSE",
+      "noticeUrl": "https://viewer.flinker.app/examples/s1-ids/index.html#example-notices",
+      "attribution": "Geonovum GeoBIM georeferencing practice dataset and original model authors. W3C Software and Document license as published in the source repository. Sixty5 / Building Field S1, Strijp-S.",
+      "notes": "Original source bytes; contents unchanged."
+    },
+    {
+      "id": "s1-stairs",
+      "name": "E-S1-AFB-JONKERS-TRAPPEN EN BALUSTRADEN.IFC",
+      "format": "IFC",
+      "bytes": 11680774,
+      "url": "https://raw.githubusercontent.com/Geonovum/GeoBIM_Georefereren/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_B%26U/Project%20S1/E-S1-AFB-JONKERS-TRAPPEN%20EN%20BALUSTRADEN.IFC",
+      "sourceUrl": "https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_B%26U/Project%20S1/E-S1-AFB-JONKERS-TRAPPEN%20EN%20BALUSTRADEN.IFC",
+      "license": "W3C",
+      "licenseUrl": "https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/LICENSE",
+      "noticeUrl": "https://viewer.flinker.app/examples/s1-ids/index.html#example-notices",
+      "attribution": "Geonovum GeoBIM georeferencing practice dataset and original model authors. W3C Software and Document license as published in the source repository. Sixty5 / Building Field S1, Strijp-S.",
+      "notes": "Original source bytes; contents unchanged."
+    },
+    {
+      "id": "s1-information-quality",
+      "name": "s1-information-quality.ids",
+      "format": "IDS",
+      "bytes": 2660,
+      "origin": "viewer",
+      "url": "data:application/xml;charset=utf-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Cids%20xmlns%3D%22http%3A%2F%2Fstandards.buildingsmart.org%2FIDS%22%20xmlns%3Axs%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%22%20xmlns%3Axsi%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema-instance%22%20xsi%3AschemaLocation%3D%22http%3A%2F%2Fstandards.buildingsmart.org%2FIDS%20https%3A%2F%2Fstandards.buildingsmart.org%2FIDS%2F1.0%2Fids.xsd%22%3E%0A%20%20%3Cinfo%3E%0A%20%20%20%20%3Ctitle%3ESixty5%20%C2%B7%20wall%20information%3C%2Ftitle%3E%0A%20%20%20%20%3Ccopyright%3EFlinker%20sample%20library%20contributors.%20CC0%201.0%20for%20this%20independently%20authored%20sample%20IDS.%3C%2Fcopyright%3E%0A%20%20%20%20%3Cversion%3E1.1%3C%2Fversion%3E%0A%20%20%20%20%3Cdescription%3EIllustrative%20information%20requirements%20for%20walls%20across%20the%20S1%20structural%2C%20facade%20and%20stairs%20models.%20Walls%20must%20have%20a%20name%20and%20a%20non-empty%20Pset_WallCommon.FireRating.%20These%20exports%20contain%20both%20populated%20and%20missing%20values.%20This%20is%20not%20a%20contractual%20S1%20delivery%20specification%20or%20a%20fire-safety%20compliance%20assessment.%3C%2Fdescription%3E%0A%20%20%20%20%3Cdate%3E2026-10-16%3C%2Fdate%3E%0A%20%20%20%20%3Cpurpose%3EReview%20missing%20wall%20identification%20and%20fire-rating%20information%20across%20discipline%20models%3C%2Fpurpose%3E%0A%20%20%3C%2Finfo%3E%0A%20%20%3Cspecifications%3E%0A%20%20%20%20%3Cspecification%20name%3D%22Walls%20%C2%B7%20fire-rating%20information%22%20ifcVersion%3D%22IFC2X3%22%20identifier%3D%22S1-WALL-FIRE-RATING%22%20description%3D%22Check%20that%20walls%20carry%20non-empty%20fire-rating%20information.%22%20instructions%3D%22Provide%20Pset_WallCommon.FireRating.%20This%20checks%20information%20completeness%2C%20not%20whether%20a%20rating%20meets%20fire-safety%20requirements.%22%3E%0A%20%20%20%20%20%20%3Capplicability%20minOccurs%3D%220%22%20maxOccurs%3D%22unbounded%22%3E%0A%20%20%20%20%20%20%20%20%3Centity%3E%3Cname%3E%3Cxs%3Arestriction%20base%3D%22xs%3Astring%22%3E%3Cxs%3Apattern%20value%3D%22IFCWALL(STANDARDCASE)%3F%22%2F%3E%3C%2Fxs%3Arestriction%3E%3C%2Fname%3E%3C%2Fentity%3E%0A%20%20%20%20%20%20%3C%2Fapplicability%3E%0A%20%20%20%20%20%20%3Crequirements%3E%0A%20%20%20%20%20%20%20%20%3Cproperty%20dataType%3D%22IFCLABEL%22%20cardinality%3D%22required%22%3E%3CpropertySet%3E%3CsimpleValue%3EPset_WallCommon%3C%2FsimpleValue%3E%3C%2FpropertySet%3E%3CbaseName%3E%3CsimpleValue%3EFireRating%3C%2FsimpleValue%3E%3C%2FbaseName%3E%3Cvalue%3E%3Cxs%3Arestriction%20base%3D%22xs%3Astring%22%3E%3Cxs%3AminLength%20value%3D%221%22%2F%3E%3C%2Fxs%3Arestriction%3E%3C%2Fvalue%3E%3C%2Fproperty%3E%0A%20%20%20%20%20%20%3C%2Frequirements%3E%0A%20%20%20%20%3C%2Fspecification%3E%0A%20%20%20%20%3Cspecification%20name%3D%2203.05%20%C2%B7%20Walls%20%C2%B7%20names%22%20ifcVersion%3D%22IFC2X3%22%20identifier%3D%22S1-WALL-NAMES%22%20description%3D%22Check%20that%20walls%20have%20names%20for%20coordination.%22%20instructions%3D%22Provide%20a%20meaningful%20non-empty%20wall%20name.%20Naming%20conventions%20are%20project-specific.%22%3E%0A%20%20%20%20%20%20%3Capplicability%20minOccurs%3D%220%22%20maxOccurs%3D%22unbounded%22%3E%0A%20%20%20%20%20%20%20%20%3Centity%3E%3Cname%3E%3Cxs%3Arestriction%20base%3D%22xs%3Astring%22%3E%3Cxs%3Apattern%20value%3D%22IFCWALL(STANDARDCASE)%3F%22%2F%3E%3C%2Fxs%3Arestriction%3E%3C%2Fname%3E%3C%2Fentity%3E%0A%20%20%20%20%20%20%3C%2Fapplicability%3E%0A%20%20%20%20%20%20%3Crequirements%3E%0A%20%20%20%20%20%20%20%20%3Cattribute%20cardinality%3D%22required%22%3E%3Cname%3E%3CsimpleValue%3EName%3C%2FsimpleValue%3E%3C%2Fname%3E%3Cvalue%3E%3Cxs%3Arestriction%20base%3D%22xs%3Astring%22%3E%3Cxs%3AminLength%20value%3D%221%22%2F%3E%3C%2Fxs%3Arestriction%3E%3C%2Fvalue%3E%3C%2Fattribute%3E%0A%20%20%20%20%20%20%3C%2Frequirements%3E%0A%20%20%20%20%3C%2Fspecification%3E%0A%20%20%3C%2Fspecifications%3E%0A%3C%2Fids%3E%0A",
+      "sourceUrl": "https://viewer.flinker.app/examples/s1-ids/index.html#example-requirements",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "noticeUrl": "https://viewer.flinker.app/examples/s1-ids/index.html#example-notices",
+      "attribution": "Independently authored by Flinker sample library contributors for the published S1 / Sixty5 exports. XML follows buildingSMART IDS 1.0.",
+      "notes": "Two independently authored wall-information requirements, embedded in this HTML. The fire-rating check requires a non-empty value, not a particular safety rating.",
+      "basisUrls": [
+        {
+          "title": "buildingSMART IDS standard",
+          "url": "https://github.com/buildingSMART/IDS"
+        }
+      ]
+    },
+    {
+      "id": "creoox-building",
+      "name": "example-no-1.ifc",
+      "format": "IFC",
+      "bytes": 30272200,
+      "sha256": "6d508cd61a93b30eef567b4bcf82fc54b8af98ff99b7dee9c0c57af8383834dc",
+      "url": "https://raw.githubusercontent.com/xeokit/examples/eedeb4dca756d56c7703b312daff22fa31643fef/assets/models/las/example-no-1.ifc",
+      "sourceUrl": "https://github.com/xeokit/examples/blob/eedeb4dca756d56c7703b312daff22fa31643fef/assets/models/las/example-no-1.ifc",
+      "license": "Repository AGPL-3.0; no separate dataset licence stated",
+      "licenseUrl": "https://github.com/xeokit/examples/blob/eedeb4dca756d56c7703b312daff22fa31643fef/LICENSE",
+      "noticeUrl": "https://viewer.flinker.app/examples/building-scan/index.html#example-notices",
+      "attribution": "Creoox / xeokit example data. Original data rights remain with their owners.",
+      "notes": "Original file unchanged. The IFC and LAZ share local metre coordinates; this example adds no CRS, offset, rotation or scale."
+    },
+    {
+      "id": "creoox-building-scan",
+      "name": "example-no-1.laz",
+      "format": "LAZ",
+      "bytes": 91248439,
+      "sha256": "50f2a941ff9afe0390da3542ed7b5b576cf5cceb71eecea0955b74fc0bdf015a",
+      "url": "https://raw.githubusercontent.com/xeokit/examples/eedeb4dca756d56c7703b312daff22fa31643fef/assets/models/las/example-no-1.laz",
+      "sourceUrl": "https://github.com/xeokit/examples/blob/eedeb4dca756d56c7703b312daff22fa31643fef/assets/models/las/example-no-1.laz",
+      "license": "Repository AGPL-3.0; no separate dataset licence stated",
+      "licenseUrl": "https://github.com/xeokit/examples/blob/eedeb4dca756d56c7703b312daff22fa31643fef/LICENSE",
+      "noticeUrl": "https://viewer.flinker.app/examples/building-scan/index.html#example-notices",
+      "attribution": "Creoox / xeokit example data. Original data rights remain with their owners.",
+      "notes": "Original file unchanged. The IFC and LAZ share local metre coordinates; this example adds no CRS, offset, rotation or scale.",
+      "points": 9265546
+    },
+    {
+      "id": "esplan",
+      "name": "1807_EP_AR_v18.ifc",
+      "format": "IFC",
+      "bytes": 12109172,
+      "url": "https://media.githubusercontent.com/media/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20(IFC%202x3)/Esplanades/1807_EP_AR_v18.ifc",
+      "sourceUrl": "https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20(IFC%202x3)/Esplanades/1807_EP_AR_v18.ifc",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/LICENSE",
+      "noticeUrl": "https://viewer.flinker.app/examples/view-link/index.html#example-notices",
+      "attribution": "© Esplan. Estonian architectural project, published by buildingSMART community.",
+      "notes": "Original file; contents unchanged."
+    },
+    {
+      "id": "s1-environment",
+      "name": "OMG_KS_3dBAG.ifc",
+      "format": "IFC",
+      "bytes": 15667440,
+      "url": "https://raw.githubusercontent.com/Geonovum/GeoBIM_Georefereren/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_B%26U/Project%20S1/OMG_KS_3dBAG.ifc",
+      "sourceUrl": "https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_B%26U/Project%20S1/OMG_KS_3dBAG.ifc",
+      "license": "W3C / CC BY 4.0 (3DBAG data)",
+      "licenseUrl": "https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/LICENSE",
+      "noticeUrl": "https://viewer.flinker.app/examples/s1-context/index.html#example-notices",
+      "attribution": "Geonovum GeoBIM georeferencing practice dataset and original model authors. W3C Software and Document license as published in the source repository. Underlying data: © 3DBAG by tudelft3d and 3DGI, CC BY 4.0. https://docs.3dbag.nl/en/copyright/",
+      "notes": "The example writes the published GIS origin into standard IFC2X3 georeferencing metadata before normal import. Original geometry and local model heights are retained.",
+      "georeference": {
+        "eastings": 159860.987,
+        "northings": 384230.208,
+        "xAxisAbscissa": 1,
+        "xAxisOrdinate": 0,
+        "scale": 1,
+        "latitude": 51.44714029715481,
+        "longitude": 5.457125826791071
+      },
+      "placementSourceUrl": "https://github.com/bedrock-engineer/ifc-georeferencer-workshop"
+    },
+    {
+      "id": "clinic-architectural",
+      "name": "Clinic_Architectural.ifc",
+      "format": "IFC",
+      "bytes": 13003205,
+      "sha256": "2ac970ce065ecac4e0c9e5f453a257169e90d0067f419b7e33533a64ef837880",
+      "url": "https://media.githubusercontent.com/media/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20(IFC%202x3)/Medical-Dental%20Clinic/Clinic_Architectural.ifc",
+      "sourceUrl": "https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20(IFC%202x3)/Medical-Dental%20Clinic/Clinic_Architectural.ifc",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/LICENSE",
+      "noticeUrl": "https://viewer.flinker.app/examples/ifc-quantity-takeoff/index.html#example-notices",
+      "attribution": "BSI (2020) “Medical-Dental Test Files,” buildingSMART International. Original project provided to the US Construction Engineering Research Laboratory; formerly hosted by the US National Institute of Building Sciences.",
+      "notes": "Original file; contents unchanged."
+    },
+    {
+      "id": "s1",
+      "name": "bSDD_references_example.ifc",
+      "format": "IFC",
+      "bytes": 394697402,
+      "url": "https://media.githubusercontent.com/media/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20(IFC%202x3)/SDK%20-%20S1/bSDD_references_example.ifc",
+      "sourceUrl": "https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20(IFC%202x3)/SDK%20-%20S1/bSDD_references_example.ifc",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/LICENSE",
+      "noticeUrl": "https://viewer.flinker.app/examples/sixty5/index.html#example-notices",
+      "attribution": "Sixty5 / Building Field S1, Strijp-S. Stam + De Koning and original model authors; published by buildingSMART community.",
+      "notes": "Original source bytes; contents unchanged."
+    },
+    {
+      "id": "autzen-classified",
+      "name": "autzen-classified.laz",
+      "format": "LAZ",
+      "bytes": 74416814,
+      "url": "https://media.githubusercontent.com/media/PDAL/data/ce0024257c573526389c4db9ab26e82739b8aaa9/autzen/autzen-classified.laz",
+      "sourceUrl": "https://github.com/PDAL/data/blob/ce0024257c573526389c4db9ab26e82739b8aaa9/autzen/autzen-classified.laz",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://github.com/PDAL/data/blob/ce0024257c573526389c4db9ab26e82739b8aaa9/LICENSE",
+      "noticeUrl": "https://viewer.flinker.app/examples/autzen/index.html#example-notices",
+      "attribution": "Autzen Stadium LiDAR © Aaron Reyna, Watershed Sciences, Inc. Classification by Max Sampson, Hobu, Inc. (2021); distributed by PDAL.",
+      "notes": "Original file; contents unchanged.",
+      "points": 10653336
+    },
+    {
+      "id": "clinic-hvac",
+      "name": "Clinic_HVAC.ifc",
+      "format": "IFC",
+      "bytes": 26914597,
+      "url": "https://media.githubusercontent.com/media/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20(IFC%202x3)/Medical-Dental%20Clinic/Clinic_HVAC.ifc",
+      "sourceUrl": "https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20(IFC%202x3)/Medical-Dental%20Clinic/Clinic_HVAC.ifc",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/LICENSE",
+      "noticeUrl": "https://viewer.flinker.app/examples/view-table/index.html#example-notices",
+      "attribution": "BSI (2020) “Medical-Dental Test Files,” buildingSMART International. Original project provided to the US Construction Engineering Research Laboratory; formerly hosted by the US National Institute of Building Sciences.",
+      "notes": "Original file; contents unchanged."
+    },
+    {
+      "id": "zurich-district",
+      "name": "showcase_zurich_paradeplatz.ifc",
+      "format": "IFC",
+      "bytes": 90774981,
+      "url": "https://media.githubusercontent.com/media/louistrue/ifc-site/675ff0afe440f5390a66c2bb170bd381e7d9053e/results/showcase_zurich_paradeplatz.ifc",
+      "sourceUrl": "https://github.com/louistrue/ifc-site/blob/675ff0afe440f5390a66c2bb170bd381e7d9053e/results/showcase_zurich_paradeplatz.ifc",
+      "license": "AGPL-3.0 / swisstopo OGD / ODbL-1.0",
+      "licenseUrl": "https://github.com/louistrue/ifc-site/blob/675ff0afe440f5390a66c2bb170bd381e7d9053e/LICENSE",
+      "noticeUrl": "https://viewer.flinker.app/examples/zurich-district/index.html#example-notices",
+      "attribution": "Original IFC exports by louistrue / Swiss Site Boundaries Tool (AGPL-3.0). Source: Federal Office of Topography swisstopo (free geodata, attribution required). © OpenStreetMap contributors (ODbL-1.0).",
+      "notes": "Complete original published IFC4 urban geodata export; contents unchanged. Buildings, terrain and mapped infrastructure use Swiss LV95 (EPSG:2056), metre units and the declared LN02 height datum. The model includes its own IFC terrain; the optional 30 m Copernicus surface includes roofs and vegetation. This is geographic context data, not a detailed construction-design model."
+    },
+    {
+      "id": "van-brienenoord",
+      "name": "Van Brienenoordbrug-IFC4X3.ifc",
+      "format": "IFC",
+      "bytes": 1319501,
+      "url": "https://raw.githubusercontent.com/Geonovum/GeoBIM_Georefereren/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_Infra/Van%20Brienenoordbrug-IFC4X3.ifc",
+      "sourceUrl": "https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_Infra/Van%20Brienenoordbrug-IFC4X3.ifc",
+      "license": "W3C",
+      "licenseUrl": "https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/LICENSE",
+      "noticeUrl": "https://viewer.flinker.app/examples/rotterdam-bridge/index.html#example-notices",
+      "attribution": "Geonovum GeoBIM georeferencing practice dataset and original model authors. W3C Software and Document license as published in the source repository.",
+      "notes": "The example supplements the missing vertical datum as NAP, inferred from the publisher’s successful height validation against AHN (NAP). Original geometry, map-conversion coordinates and heights are retained. The publisher reports a small XYZ offset against AHN. Copernicus is a 30 m surface model, so this is not a certified survey overlay.",
+      "crsCorrection": {
+        "sha256": "fd305a82156910c4c4332cfec826ff39fda506b02c1bd8e8d5c8ab1e32b66a64",
+        "expectedName": "EPSG:28992",
+        "verticalDatum": "NAP"
+      },
+      "placementSourceUrl": "https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/09%20Praktijktoets%20georefereren.md"
+    },
+    {
+      "id": "rotterdam-project",
+      "name": "Van Brienenoordbrug-IFC4X3.ifc",
+      "format": "IFC",
+      "bytes": 1319501,
+      "url": "https://raw.githubusercontent.com/Geonovum/GeoBIM_Georefereren/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_Infra/Van%20Brienenoordbrug-IFC4X3.ifc",
+      "sourceUrl": "https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_Infra/Van%20Brienenoordbrug-IFC4X3.ifc",
+      "license": "W3C",
+      "licenseUrl": "https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/LICENSE",
+      "noticeUrl": "https://viewer.flinker.app/examples/dispose/index.html#example-notices",
+      "attribution": "Geonovum GeoBIM georeferencing practice dataset and original model authors. W3C Software and Document license as published in the source repository.",
+      "notes": "Original IFC4X3 source imported unchanged, including its EPSG:28992 map conversion and heights. The source does not declare a vertical datum; no survey-grade terrain alignment is claimed.",
+      "placementSourceUrl": "https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/09%20Praktijktoets%20georefereren.md"
+    }
+  ],
+  "samples": [
+    {
+      "id": "component-lookup",
+      "assetIds": [
+        "west-riverside-arc-ifc4"
+      ],
+      "presentation": "default"
+    },
+    {
+      "id": "floorplans",
+      "assetIds": [
+        "bim-whale-advanced"
+      ],
+      "presentation": "default"
+    },
+    {
+      "id": "west-riverside-hospital",
+      "assetIds": [
+        "west-riverside-arc-ifc4",
+        "west-riverside-elec-ifc4",
+        "west-riverside-fire-ifc4",
+        "west-riverside-mech-ifc4",
+        "west-riverside-plumb-ifc4",
+        "west-riverside-sprinkle-ifc4",
+        "west-riverside-str-ifc4"
+      ]
+    },
+    {
+      "id": "s1-ids",
+      "assetIds": [
+        "s1-structure",
+        "s1-facade",
+        "s1-stairs",
+        "s1-information-quality"
+      ],
+      "presentation": "default"
+    },
+    {
+      "id": "building-scan",
+      "assetIds": [
+        "creoox-building",
+        "creoox-building-scan"
+      ],
+      "presentation": "default"
+    },
+    {
+      "id": "view-link",
+      "assetIds": [
+        "esplan"
+      ],
+      "presentation": "default"
+    },
+    {
+      "id": "s1-context",
+      "assetIds": [
+        "s1-structure",
+        "s1-facade",
+        "s1-environment"
+      ],
+      "presentation": "map"
+    },
+    {
+      "id": "ifc-quantity-takeoff",
+      "assetIds": [
+        "clinic-architectural"
+      ],
+      "presentation": "default"
+    },
+    {
+      "id": "storey-visibility",
+      "assetIds": [
+        "west-riverside-arc-ifc4"
+      ],
+      "presentation": "default"
+    },
+    {
+      "id": "sixty5",
+      "assetIds": [
+        "s1"
+      ],
+      "presentation": "default"
+    },
+    {
+      "id": "room-info",
+      "assetIds": [
+        "clinic-architectural"
+      ],
+      "presentation": "default"
+    },
+    {
+      "id": "autzen",
+      "assetIds": [
+        "autzen-classified"
+      ],
+      "presentation": "default"
+    },
+    {
+      "id": "selection",
+      "assetIds": [
+        "bim-whale-advanced"
+      ],
+      "presentation": "default"
+    },
+    {
+      "id": "window-width",
+      "assetIds": [
+        "bim-whale-advanced"
+      ],
+      "presentation": "default"
+    },
+    {
+      "id": "view-table",
+      "assetIds": [
+        "clinic-hvac"
+      ],
+      "presentation": "default"
+    },
+    {
+      "id": "zurich-district",
+      "assetIds": [
+        "zurich-district"
+      ],
+      "presentation": "map"
+    },
+    {
+      "id": "s1-structure",
+      "assetIds": [
+        "s1-structure",
+        "s1-facade",
+        "s1-stairs"
+      ],
+      "presentation": "default"
+    },
+    {
+      "id": "rotterdam-bridge",
+      "assetIds": [
+        "van-brienenoord"
+      ],
+      "presentation": "map"
+    },
+    {
+      "id": "bcf-annotations",
+      "assetIds": [
+        "bim-whale-advanced"
+      ],
+      "presentation": "default"
+    },
+    {
+      "id": "bcf-2d",
+      "assetIds": [
+        "bim-whale-advanced"
+      ],
+      "presentation": "default"
+    },
+    {
+      "id": "dispose",
+      "assetIds": [
+        "zurich-district"
+      ],
+      "presentation": "map"
+    }
+  ],
+  "examples": [
+    {
+      "id": "component-lookup",
+      "path": "examples/component-lookup/index.html",
+      "href": "/examples/component-lookup/index.html",
+      "title": "Search component properties",
+      "category": "Asset information",
+      "description": "Search component names, properties, quantities, materials and classifications, then show only the matching components.",
+      "capabilities": [
+        "Full property search"
+      ],
+      "formats": [
+        "IFC",
+        "BCF"
+      ],
+      "assetIds": [
+        "west-riverside-arc-ifc4"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/component-lookup/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>Search component properties</h2>\r\n<p data-example-description>Search component names, properties, quantities, materials and classifications, then show only the matching components.</p>\r\n<h3>Search</h3><p>Enter a name, property name or value and press Search or Enter to isolate matching components. Search is case-insensitive; every space-separated word must occur in the same component. GlobalIds remain searchable. A search with no matches hides all components; an empty search restores the full model. To inspect properties, click a visible component, then click 1 element selected at the top left to open Properties. If loading fails, click Search to retry.</p>\n<h3>Developer integration</h3><p>The page queries all products through the published <code>viewer.IfcAPI</code>, including occurrence and inherited type properties, quantities, materials and classifications. Shared definitions are read once in bounded batches. The original West Riverside Hospital architectural model is hash-verified. Search results are isolated through BCF visibility exceptions using <code>bcf.save()</code>, <code>viewer.add()</code> and <code>viewer.selectTopic()</code>. The viewpoint preserves the camera and does not select or color components. Loading and errors use the viewer message API.</p><p>The page opens the original source bytes with <code>await viewer.IfcAPI</code>, reads native model data, then closes the model and disposes WASM before displaying the source with <code>viewer.add()</code>. See the <a href=\"https://thatopen.github.io/engine_web-ifc/docs/classes/web-ifc.IfcAPI.html\">complete web-ifc API reference</a>.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2>\r\n<p>Solihin, W. West Riverside Hospital IFC Models. Donated by Wawan Solihin (Singapore) and hosted on the OpenIFC Model Repository by Professor Robert Amor, University of Auckland. <a href=\"https://openifcmodel.cs.auckland.ac.nz/\" target=\"_blank\" rel=\"noopener noreferrer\">Original repository</a>. Distributed by Sylvain Hellin in <a href=\"https://huggingface.co/datasets/sylvainHellin/ifc-bench/tree/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital\" target=\"_blank\" rel=\"noopener noreferrer\">IFC-Bench at the pinned revision</a>.</p>\r\n<p>The architectural IFC4 file is imported unchanged; the other discipline models are not loaded. The model-specific <a href=\"https://huggingface.co/datasets/sylvainHellin/ifc-bench/blob/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital/license.txt\" target=\"_blank\" rel=\"noopener noreferrer\">source license notice</a> specifies <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"noopener noreferrer\">Creative Commons Attribution 3.0 Unported</a> for these models.</p>"
+    },
+    {
+      "id": "floorplans",
+      "path": "examples/floorplans/index.html",
+      "href": "/examples/floorplans/index.html",
+      "title": "Open saved floor plans by storey",
+      "category": "Buildings",
+      "description": "Choose a storey to open its saved floor plan, then pan and zoom to inspect the layout.",
+      "capabilities": [
+        "Floor plans",
+        "Storey recognition",
+        "2D navigation"
+      ],
+      "formats": [
+        "IFC",
+        "BCF"
+      ],
+      "assetIds": [
+        "bim-whale-advanced"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/floorplans/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>Open saved floor plans by storey</h2>\r\n<p data-example-description>Choose a storey to open its saved floor plan, then pan and zoom to inspect the layout.</p>\r\n<h2>BIM workflow</h2><p>Choose any storey returned by the model. The lowest storey opens first. Each button restores a top-down floor slice; pan and zoom to inspect the plan. The left toolbar's Sections panel shows the recognized storey and cut. Select a component and click 1 element selected at the top left to open Properties.</p>\r\n<h2>Developer integration</h2><p>An integration supplies each saved floor plan as a downward BCF camera and two horizontal clipping bounds. The page queries storey names and placements through <code>viewer.IfcAPI</code>. Cuts retain 0.30 m below each queried elevation and 1.50 m above it. <code>bcf.save()</code>, <code>viewer.add()</code> and <code>viewer.selectTopic()</code> handle the saved views; the model is imported once and plan changes select an existing topic.</p><p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. Open <code>http://localhost:8080/</code>; the SDK and sample downloads require internet access.</p>\r\n<p>The page opens the original source bytes with <code>await viewer.IfcAPI</code>, reads native model data, then closes the model and disposes WASM before displaying the source with <code>viewer.add()</code>. See the <a href=\"https://thatopen.github.io/engine_web-ifc/docs/classes/web-ifc.IfcAPI.html\">complete web-ifc API reference</a>.</p>",
+      "noticesHtml": "<h2>Model source and license</h2><p>BIM Whale Advanced Project. Copyright (c) 2020 André \"MG\" Wisén. <a href=\"https://github.com/andrewisen/bim-whale-ifc-samples/blob/595fa90e3af7120d004fcb37a79d8657f1d1c9c2/AdvancedProject/IFC/AdvancedProject.ifc\" target=\"_blank\" rel=\"noopener noreferrer\">Original IFC at the pinned revision</a> · <a href=\"https://github.com/andrewisen/bim-whale-ifc-samples/blob/595fa90e3af7120d004fcb37a79d8657f1d1c9c2/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">MIT License</a>. The original IFC2x3 file is imported unchanged.</p>"
+    },
+    {
+      "id": "bcf",
+      "path": "examples/bcf/index.html",
+      "href": "/examples/bcf/index.html",
+      "title": "Explore Architectural and MEP BCF issues",
+      "category": "Coordination",
+      "description": "Explore buildingSMART BCF 3.0 issues for the Architectural and MEP models, including comments and saved viewpoints.",
+      "capabilities": [
+        "BCF review"
+      ],
+      "formats": [
+        "IFC",
+        "BCF"
+      ],
+      "assetIds": [],
+      "steps": [],
+      "thumbnail": "/examples/bcf/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>Explore Architectural and MEP BCF issues</h2><p data-example-description>Explore buildingSMART BCF 3.0 issues for the Architectural and MEP models, including comments and saved viewpoints.</p><h3>Try it</h3><p>Open Topics (speech bubble) on the left toolbar, select an imported topic to inspect its details, comments and saved viewpoints. Choose a viewpoint to restore its model view. Some topics contain only text or document references. Select a component, then click 1 element selected at the top left to open Properties.</p><h3>Included samples</h3><p>This example loads Architectural.ifc and MEP.ifc with their buildingSMART BCF 3.0 sample collection: 19 archives covering issue details and model viewpoints. Each archive is imported unchanged. File names include its category and sample name.</p><h3>Developer integration</h3><p>Pass each source model and original BCF archive to <code>viewer.add()</code>. The SDK owns topic navigation and viewpoint restoration. Archives are imported unchanged; unpacked copies of their markup files are not separate archives. If a download or import fails, Retry failed files opens only the unsuccessful files.</p><p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. The published SDK and sample downloads require internet access.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p><a href=\"https://github.com/buildingSMART/BCF-XML/tree/bc48611d0d7a1587f028a2b69677a1aafd5cd0a8/Test%20Cases\" target=\"_blank\" rel=\"noopener noreferrer\">© buildingSMART International Ltd.</a> · <a href=\"https://github.com/buildingSMART/BCF-XML/blob/bc48611d0d7a1587f028a2b69677a1aafd5cd0a8/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-ND 4.0</a></p><p>Dedicated standalone examples cover <a href=\"https://viewer.flinker.app/examples/selection/index.html\">selection from a building work schedule</a>, <a href=\"https://viewer.flinker.app/examples/bcf-coloring/index.html\">coloring</a>, <a href=\"https://viewer.flinker.app/examples/bcf-visibility/index.html\">visibility</a> and <a href=\"https://viewer.flinker.app/examples/bcf-clipping/index.html\">clipping</a>. Use the viewer's Topics panel to inspect or export their generated topics.</p>"
+    },
+    {
+      "id": "west-riverside-hospital",
+      "path": "examples/west-riverside-hospital/index.html",
+      "href": "/examples/west-riverside-hospital/index.html",
+      "title": "Federate West Riverside Hospital",
+      "category": "Buildings",
+      "description": "Explore West Riverside Hospital's seven IFC4 discipline models federated in one viewer: architecture, structure and building services.",
+      "capabilities": [
+        "Federation"
+      ],
+      "formats": [
+        "IFC"
+      ],
+      "assetIds": [
+        "west-riverside-arc-ifc4",
+        "west-riverside-elec-ifc4",
+        "west-riverside-fire-ifc4",
+        "west-riverside-mech-ifc4",
+        "west-riverside-plumb-ifc4",
+        "west-riverside-sprinkle-ifc4",
+        "west-riverside-str-ifc4"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/west-riverside-hospital/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>Federate West Riverside Hospital</h2>\n<p data-example-description>Explore West Riverside Hospital&#39;s seven IFC4 discipline models federated in one viewer: architecture, structure and building services.</p>\n<h3>Try it</h3>\n<ol><li>Open Files (folder) on the left toolbar to see the seven IFC4 models in the federation.</li><li>Toggle file checkboxes to inspect architecture, structure, mechanical, plumbing, electrical, fire alarm and sprinkler models in their shared coordinates.</li><li>Select a component, then click 1 element selected at the top left to open Properties.</li></ol>\n<h3>About this example</h3>\n<p>For BIM users reviewing a multidisciplinary hospital project. The seven IFC4 files from the linked West Riverside Hospital folder are imported unchanged into one viewer, with their original names and placements. The complete download is approximately 224 MB; allow time and memory for all models to open.</p>\n<p>The standalone page reads its source list once and adds files sequentially through the published SDK. Download feedback and errors use the viewer's message API. Retry sample resumes with the first unfinished file and retains files already imported.</p>\n<p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. Open <code>http://localhost:8080/</code>; the SDK and sample downloads require internet access.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2>\n<p>Solihin, W. West Riverside Hospital IFC Models. Donated by Wawan Solihin (Singapore) and hosted on the OpenIFC Model Repository by Professor Robert Amor, University of Auckland. <a href=\"https://openifcmodel.cs.auckland.ac.nz/\" target=\"_blank\" rel=\"noopener noreferrer\">Original repository</a>. Distributed by Sylvain Hellin in <a href=\"https://huggingface.co/datasets/sylvainHellin/ifc-bench/tree/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital\" target=\"_blank\" rel=\"noopener noreferrer\">IFC-Bench at the pinned revision</a>.</p>\n<p>The seven IFC4 files are imported unchanged. The model-specific <a href=\"https://huggingface.co/datasets/sylvainHellin/ifc-bench/blob/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital/license.txt\" target=\"_blank\" rel=\"noopener noreferrer\">source license notice</a> specifies <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"noopener noreferrer\">Creative Commons Attribution 3.0 Unported</a> for these models.</p>"
+    },
+    {
+      "id": "s1-ids",
+      "path": "examples/s1-ids/index.html",
+      "href": "/examples/s1-ids/index.html",
+      "title": "Check wall names and fire-rating information",
+      "category": "Validation",
+      "description": "Run IDS checks to find walls with missing names or fire-rating values, then highlight passing or failing components.",
+      "capabilities": [
+        "IDS",
+        "2 specifications",
+        "Federation",
+        "Information quality",
+        "Fire-rating information"
+      ],
+      "formats": [
+        "IFC",
+        "IDS"
+      ],
+      "assetIds": [
+        "s1-structure",
+        "s1-facade",
+        "s1-stairs",
+        "s1-information-quality"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/s1-ids/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>Check wall names and fire-rating information</h2><p data-example-description>Run IDS checks to find walls with missing names or fire-rating values, then highlight passing or failing components.</p><h3>Try it</h3><p>The example opens the three discipline models with their original appearance and loads the two IDS specifications, ready for you to run.</p><p>Open IDS (circled check) on the left toolbar and click Run All Checks. Expand Walls · fire-rating information, then click Apply beside a failed finding to highlight those walls in red, or beside Passed elements to highlight passing walls in green. The SDK applies each finding separately. Click a wall, then click 1 element selected at the top left to open Properties and inspect Pset_WallCommon.FireRating.</p><h3>Expected results</h3><p>The fire-rating information check finds 299 passing structural walls with FireRating = 120, and 353 failing facade walls: 351 have no FireRating property and two have an empty value. The wall-name check finds 301 passing and 351 failing walls. The stairs model contains no applicable walls. These results come from the unchanged source exports.</p><h3>Developer integration</h3><p>Two IDS specifications are embedded alongside the three original IFC discipline models. The SDK runs the IDS checks. Use Run All Checks in the IDS panel to evaluate the loaded models, then Apply on a finding to visualize its results. The example does not calculate separate results or create a BCF overview at startup. Both checks review information completeness. The fire-rating check requires a non-empty Pset_WallCommon.FireRating, not a particular rating; it does not assess fire-safety compliance or represent the project contract.</p><p>Serve this folder over HTTP. The published SDK and source downloads require internet access.</p><h3>Model notes</h3><p>The original IFC source is imported unchanged.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p><a href=\"https://github.com/Geonovum/GeoBIM_Georefereren/tree/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_B%26U/Project%20S1\" target=\"_blank\" rel=\"noopener noreferrer\">Geonovum and original model authors</a> · <a href=\"https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">W3C</a></p><p><a id=\"example-requirements\" href=\"data:application/xml;charset=utf-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Cids%20xmlns%3D%22http%3A%2F%2Fstandards.buildingsmart.org%2FIDS%22%20xmlns%3Axs%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%22%20xmlns%3Axsi%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema-instance%22%20xsi%3AschemaLocation%3D%22http%3A%2F%2Fstandards.buildingsmart.org%2FIDS%20https%3A%2F%2Fstandards.buildingsmart.org%2FIDS%2F1.0%2Fids.xsd%22%3E%0A%20%20%3Cinfo%3E%0A%20%20%20%20%3Ctitle%3ESixty5%20%C2%B7%20wall%20information%3C%2Ftitle%3E%0A%20%20%20%20%3Ccopyright%3EFlinker%20sample%20library%20contributors.%20CC0%201.0%20for%20this%20independently%20authored%20sample%20IDS.%3C%2Fcopyright%3E%0A%20%20%20%20%3Cversion%3E1.1%3C%2Fversion%3E%0A%20%20%20%20%3Cdescription%3EIllustrative%20information%20requirements%20for%20walls%20across%20the%20S1%20structural%2C%20facade%20and%20stairs%20models.%20Walls%20must%20have%20a%20name%20and%20a%20non-empty%20Pset_WallCommon.FireRating.%20These%20exports%20contain%20both%20populated%20and%20missing%20values.%20This%20is%20not%20a%20contractual%20S1%20delivery%20specification%20or%20a%20fire-safety%20compliance%20assessment.%3C%2Fdescription%3E%0A%20%20%20%20%3Cdate%3E2026-10-16%3C%2Fdate%3E%0A%20%20%20%20%3Cpurpose%3EReview%20missing%20wall%20identification%20and%20fire-rating%20information%20across%20discipline%20models%3C%2Fpurpose%3E%0A%20%20%3C%2Finfo%3E%0A%20%20%3Cspecifications%3E%0A%20%20%20%20%3Cspecification%20name%3D%22Walls%20%C2%B7%20fire-rating%20information%22%20ifcVersion%3D%22IFC2X3%22%20identifier%3D%22S1-WALL-FIRE-RATING%22%20description%3D%22Check%20that%20walls%20carry%20non-empty%20fire-rating%20information.%22%20instructions%3D%22Provide%20Pset_WallCommon.FireRating.%20This%20checks%20information%20completeness%2C%20not%20whether%20a%20rating%20meets%20fire-safety%20requirements.%22%3E%0A%20%20%20%20%20%20%3Capplicability%20minOccurs%3D%220%22%20maxOccurs%3D%22unbounded%22%3E%0A%20%20%20%20%20%20%20%20%3Centity%3E%3Cname%3E%3Cxs%3Arestriction%20base%3D%22xs%3Astring%22%3E%3Cxs%3Apattern%20value%3D%22IFCWALL(STANDARDCASE)%3F%22%2F%3E%3C%2Fxs%3Arestriction%3E%3C%2Fname%3E%3C%2Fentity%3E%0A%20%20%20%20%20%20%3C%2Fapplicability%3E%0A%20%20%20%20%20%20%3Crequirements%3E%0A%20%20%20%20%20%20%20%20%3Cproperty%20dataType%3D%22IFCLABEL%22%20cardinality%3D%22required%22%3E%3CpropertySet%3E%3CsimpleValue%3EPset_WallCommon%3C%2FsimpleValue%3E%3C%2FpropertySet%3E%3CbaseName%3E%3CsimpleValue%3EFireRating%3C%2FsimpleValue%3E%3C%2FbaseName%3E%3Cvalue%3E%3Cxs%3Arestriction%20base%3D%22xs%3Astring%22%3E%3Cxs%3AminLength%20value%3D%221%22%2F%3E%3C%2Fxs%3Arestriction%3E%3C%2Fvalue%3E%3C%2Fproperty%3E%0A%20%20%20%20%20%20%3C%2Frequirements%3E%0A%20%20%20%20%3C%2Fspecification%3E%0A%20%20%20%20%3Cspecification%20name%3D%2203.05%20%C2%B7%20Walls%20%C2%B7%20names%22%20ifcVersion%3D%22IFC2X3%22%20identifier%3D%22S1-WALL-NAMES%22%20description%3D%22Check%20that%20walls%20have%20names%20for%20coordination.%22%20instructions%3D%22Provide%20a%20meaningful%20non-empty%20wall%20name.%20Naming%20conventions%20are%20project-specific.%22%3E%0A%20%20%20%20%20%20%3Capplicability%20minOccurs%3D%220%22%20maxOccurs%3D%22unbounded%22%3E%0A%20%20%20%20%20%20%20%20%3Centity%3E%3Cname%3E%3Cxs%3Arestriction%20base%3D%22xs%3Astring%22%3E%3Cxs%3Apattern%20value%3D%22IFCWALL(STANDARDCASE)%3F%22%2F%3E%3C%2Fxs%3Arestriction%3E%3C%2Fname%3E%3C%2Fentity%3E%0A%20%20%20%20%20%20%3C%2Fapplicability%3E%0A%20%20%20%20%20%20%3Crequirements%3E%0A%20%20%20%20%20%20%20%20%3Cattribute%20cardinality%3D%22required%22%3E%3Cname%3E%3CsimpleValue%3EName%3C%2FsimpleValue%3E%3C%2Fname%3E%3Cvalue%3E%3Cxs%3Arestriction%20base%3D%22xs%3Astring%22%3E%3Cxs%3AminLength%20value%3D%221%22%2F%3E%3C%2Fxs%3Arestriction%3E%3C%2Fvalue%3E%3C%2Fattribute%3E%0A%20%20%20%20%20%20%3C%2Frequirements%3E%0A%20%20%20%20%3C%2Fspecification%3E%0A%20%20%3C%2Fspecifications%3E%0A%3C%2Fids%3E%0A\" download=\"s1-information-quality.ids\" title=\"s1-information-quality.ids\">IDS</a> · Flinker sample library contributors · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC0 1.0</a></p><p>The wall-name and fire-rating checks were independently authored by Flinker sample library contributors under CC0 1.0. Their XML follows <a href=\"https://github.com/buildingSMART/IDS\" target=\"_blank\" rel=\"noopener noreferrer\">buildingSMART IDS 1.0</a>.</p><p>These are information-completeness checks, not a contractual S1 delivery specification, fire-safety assessment or endorsement by the source organisations. A populated fire rating passes regardless of its value. Original geometry and properties are retained.</p>\n<p>The original source files are imported unchanged.</p>"
+    },
+    {
+      "id": "building-scan",
+      "path": "examples/building-scan/index.html",
+      "href": "/examples/building-scan/index.html",
+      "title": "Compare a building model with its scan",
+      "category": "Reality capture",
+      "description": "Compare a building IFC with its matching colour point cloud to inspect façades, balconies and roof edges.",
+      "capabilities": [
+        "Model and point cloud",
+        "Scan comparison"
+      ],
+      "formats": [
+        "IFC",
+        "LAZ"
+      ],
+      "assetIds": [
+        "creoox-building",
+        "creoox-building-scan"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/building-scan/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>Compare a building model with its scan</h2>\n<p data-example-description>Compare a building IFC with its matching colour point cloud to inspect façades, balconies and roof edges.</p>\n<h3>Try it</h3><ol><li>Orbit around the building and inspect roof edges, balconies and end walls.</li><li>Open Files (folder) on the left toolbar. Toggle the checkboxes beside the IFC and LAZ files to compare each source with their overlay.</li><li>Open Sections (scissors) on the left toolbar → Add clipping plane, then click a surface to inspect the relationship between model and scan.</li></ol>\n<h3>Source alignment</h3><p>The pair is <code>example-no-1.ifc</code> and <code>example-no-1.laz</code> from the xeokit examples repository. The scan has 9,265,546 points, including surrounding ground and parked cars. Both files use shared local metre coordinates. The IFC bounds are approximately X 705.512–793.626 m, Y 84.995–109.509 m, Z 82.083–106.356 m, inside the scan bounds X 694.785–802.589 m, Y 78.559–114.389 m, Z 78.515–106.567 m. Rooflines, façades and balconies visually overlap without a translation, rotation or scale correction. This visual check does not certify survey accuracy or model deviations.</p>\n<h3>Developer integration</h3><p>The page checks each source’s byte length and SHA-256 before passing the original Blob to <code>viewer.add(name, blob)</code>. It loads the IFC first, then the LAZ, retaining successful imports when a later download needs a retry. The SDK handles parsing, point-cloud storage, visibility, sections and navigation. Neither file declares a projected CRS, so the example adds no geographic location or map conversion. The IFC is about 30 MB and the LAZ about 91 MB.</p><p>Copy this folder and serve it over HTTP. The published SDK and remote sample downloads require internet access.</p>",
+      "noticesHtml": "<h2>Sources and licence notices</h2><p>Both files are downloaded directly from the official <a href=\"https://github.com/xeokit/examples/tree/eedeb4dca756d56c7703b312daff22fa31643fef/assets/models/las\">xeokit/examples GitHub repository</a>, pinned to revision <code>eedeb4dca756d56c7703b312daff22fa31643fef</code>: <a href=\"https://github.com/xeokit/examples/blob/eedeb4dca756d56c7703b312daff22fa31643fef/assets/models/las/example-no-1.ifc\">example-no-1.ifc</a> and <a href=\"https://github.com/xeokit/examples/blob/eedeb4dca756d56c7703b312daff22fa31643fef/assets/models/las/example-no-1.laz\">example-no-1.laz</a>. The repository’s <a href=\"https://github.com/xeokit/examples/blob/eedeb4dca756d56c7703b312daff22fa31643fef/lidar/las_Example1_alignPointCloud.html\">model and point-cloud alignment example</a> uses the same pair.</p><p>Attribution: Creoox / xeokit example data. Copyright and other rights in the data remain with their original owners. The repository contains an <a href=\"https://github.com/xeokit/examples/blob/eedeb4dca756d56c7703b312daff22fa31643fef/LICENSE\">AGPL-3.0 licence</a>; no separate dataset licence is stated for these files. This page downloads the pinned source bytes without modifying or redistributing the model and scan.</p><p>Source checksums: IFC SHA-256 <code>6d508cd61a93b30eef567b4bcf82fc54b8af98ff99b7dee9c0c57af8383834dc</code>; LAZ SHA-256 <code>50f2a941ff9afe0390da3542ed7b5b576cf5cceb71eecea0955b74fc0bdf015a</code>.</p>"
+    },
+    {
+      "id": "bcf-clipping",
+      "path": "examples/bcf-clipping/index.html",
+      "href": "/examples/bcf-clipping/index.html",
+      "title": "See inside a building with sections",
+      "category": "Coordination",
+      "description": "Choose a saved floor cut, side section or section box to reveal rooms and components inside a building.",
+      "capabilities": [
+        "BCF",
+        "clipping",
+        "Viewpoints"
+      ],
+      "formats": [
+        "IFC",
+        "BCF"
+      ],
+      "assetIds": [],
+      "steps": [],
+      "thumbnail": "/examples/bcf-clipping/thumbnail.webp",
+      "audience": "Developer integration",
+      "guideHtml": "<h2 data-example-title>See inside a building with sections</h2>\n<p data-example-description>Choose a saved floor cut, side section or section box to reveal rooms and components inside a building.</p>\n<h2>Developer integration</h2><p>Share the same cut with another reviewer by storing clipping planes in BCF. This page embeds three cuts in the pinned clinic's Z-up IFC coordinates and writes them with <code>bcf.save()</code>. <code>viewer.add()</code> imports each viewpoint; <code>viewer.selectTopic()</code> opens it. Use the Saved view options to switch cuts; one saved view is active at a time. Each example state demonstrates clipping, with a camera suited to its cut.</p><p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. Open <code>http://localhost:8080/</code>; the SDK and sample downloads require internet access.</p>\n<p>Component groups and project identifiers are queried from source bytes through the native <code>viewer.IfcAPI</code>. Colors, camera poses and cutting planes are authored BCF inputs.</p><p>The page opens the original source bytes with <code>await viewer.IfcAPI</code>, reads native model data, then closes the model and disposes WASM before displaying the source with <code>viewer.add()</code>. See the <a href=\"https://thatopen.github.io/engine_web-ifc/docs/classes/web-ifc.IfcAPI.html\">complete web-ifc API reference</a>.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p><a href=\"https://github.com/buildingsmart-community/Community-Sample-Test-Files/tree/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20(IFC%202x3)/Medical-Dental%20Clinic\" target=\"_blank\" rel=\"noopener noreferrer\">BSI (2020) “Medical-Dental Test Files,” buildingSMART International</a> · <a href=\"https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 4.0</a></p>"
+    },
+    {
+      "id": "view-link",
+      "path": "examples/view-link/index.html",
+      "href": "/examples/view-link/index.html",
+      "title": "Share a model view with a link",
+      "category": "Integration",
+      "description": "Create a BCF topic from the model view, then share its link or download the BCF file.",
+      "capabilities": [
+        "Create BCF topic",
+        "Share link",
+        "Restore view"
+      ],
+      "formats": [
+        "IFC",
+        "BCF"
+      ],
+      "assetIds": [
+        "esplan"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/view-link/thumbnail.webp",
+      "audience": "Developer integration",
+      "guideHtml": "<h2 data-example-title>Share a model view with a link</h2>\n<p data-example-description>Create a BCF topic from the model view, then share its link or download the BCF file.</p>\n<h3>Try it</h3><ol><li>Orbit, pan or zoom to the view you want to share.</li><li>Click Create link, then Copy link or Download BCF. Open view reopens the shared BCF topic.</li><li>The same pinned model loads and the saved BCF view is restored.</li></ol>\n<h3>Developer integration</h3><p><code>viewer.createTopic(undefined, { snapshot: false })</code> captures the current view in a BCF 3.0 archive. <code>bcf.save()</code> writes the same standard BCF bytes used by the download and the URL fragment. The optional snapshot is omitted to keep links smaller. <code>bcf.load()</code> validates the archive before <code>viewer.add()</code> and <code>viewer.selectTopic(id)</code> restore it. The URL encoding belongs to this page; the BCF payload follows buildingSMART BCF-XML. Large selections or image attachments can exceed the link limit; download the BCF file in that case.</p><p>Copy this HTML and serve it over HTTP. The pinned SDK and model download require internet access.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p class=\"note\"><a href=\"https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20(IFC%202x3)/Esplanades/1807_EP_AR_v18.ifc\" target=\"_blank\" rel=\"noopener noreferrer\">© Esplan · 12 MB</a> · <a href=\"https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 4.0</a></p>"
+    },
+    {
+      "id": "infra_Road",
+      "path": "examples/infra_Road/index.html",
+      "href": "/examples/infra_Road/index.html",
+      "title": "Explore road cross-sections",
+      "category": "Infrastructure",
+      "description": "Move a section cut along a road alignment to compare the road profile at different distances along the route.",
+      "capabilities": [
+        "Alignments",
+        "Roads",
+        "Sections"
+      ],
+      "formats": [
+        "IFC"
+      ],
+      "assetIds": [],
+      "steps": [],
+      "thumbnail": "/examples/infra_Road/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>Explore road cross-sections</h2>\n<p data-example-description>Move a section cut along a road alignment to compare the road profile at different distances along the route.</p>\n<h3>Try it</h3><ol><li>Open Sections (scissors) on the left toolbar and click Tracciato under Alignments.</li><li>Enable Cross-section at station, then enter a distance in Station / KP (m) to move the cut along the road alignment.</li><li>Use Next station or enter another distance to compare road profiles.</li></ol><h2>Developer integration</h2><p>Import the road sample with <code>viewer.add()</code>. The SDK supplies alignment navigation and sections. Chainage values refer to the source alignment.</p><p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. Open <code>http://localhost:8080/</code>; the SDK and sample downloads require internet access.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p><a href=\"https://github.com/buildingSMART/IFC4.x-IF/blob/75c7c7aa6c523e76a01cb4cf9542f896956fb92d/IFC-files/IFCRoad-ItalyWG/buildingSMART%20Italy_IFCRoad%20WG.zip\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"buildingSMART Italy IFCRoad WG.zip\">buildingSMART Italy IFCRoad working group</a></p>\n<p>buildingSMART Italy IFCRoad working group, published by buildingSMART International. The archive is downloaded from the pinned upstream revision; the extracted IFC is imported unchanged. <a href=\"https://github.com/buildingSMART/IFC4.x-IF/tree/75c7c7aa6c523e76a01cb4cf9542f896956fb92d/IFC-files\" target=\"_blank\" rel=\"noopener noreferrer\">Source documentation</a>. No dataset license is stated in the repository documentation.</p>"
+    },
+    {
+      "id": "s1-context",
+      "path": "examples/s1-context/index.html",
+      "href": "/examples/s1-context/index.html",
+      "title": "Edit IFC georeferencing with web-ifc",
+      "category": "SDK integration",
+      "description": "Use the native IFC API to position the S1 building and 3DBAG surroundings, then display the edited models on a map.",
+      "capabilities": [
+        "Native IFC editing",
+        "Georeferencing",
+        "Federation"
+      ],
+      "formats": [
+        "IFC"
+      ],
+      "assetIds": [
+        "s1-structure",
+        "s1-facade",
+        "s1-environment"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/s1-context/thumbnail.webp",
+      "audience": "Developer integration",
+      "guideHtml": "<h2 data-example-title>Edit IFC georeferencing with web-ifc</h2>\r\n<p data-example-description>Use the native IFC API to position the S1 building and 3DBAG surroundings, then display the edited models on a map.</p>\r\n<h3>Try it</h3><ol><li>Compare the building with the surrounding buildings and street map.</li><li>Open Files (folder) on the left toolbar and toggle the checkbox beside OMG_KS_3dBAG.ifc to distinguish project geometry from its neighbours.</li><li>Zoom to the project boundary to inspect its relationship to the nearby buildings.</li></ol><h2>Developer integration</h2>\r\n<p>Use <code>const api = await viewer.IfcAPI</code> to obtain the complete native web-ifc instance supplied by the SDK. Call <code>Init()</code> and <code>OpenModel()</code> for each downloaded IFC. This API runs on the main thread and owns its models independently of the viewer.</p>\r\n<p>This example reads the project, site and geometric contexts through web-ifc. It updates the site coordinates and true north, writes the IFC2X3 <code>ePSet_ProjectedCRS</code> and <code>ePSet_MapConversion</code> property sets with <code>CreateIfcEntity()</code>, <code>CreateIfcType()</code> and <code>WriteLine()</code>, then saves the edited bytes with <code>SaveModel()</code>.</p>\r\n<p>The native model is closed and WASM disposed before the saved bytes are passed to <code>viewer.add()</code>. After all three files load, <code>viewer.toggleMap(true)</code> displays their corrected placement. Native vectors are released explicitly. Repeated access to <code>viewer.IfcAPI</code> returns the same instance, which is initialized again for the next file. Geometry and local heights are retained, and the original downloads are not overwritten.</p>\r\n<p>See the <a href=\"https://thatopen.github.io/engine_web-ifc/docs/classes/web-ifc.IfcAPI.html\">complete web-ifc API reference</a> for all native methods.</p><p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. Open <code>http://localhost:8080/</code>; the SDK and sample downloads require internet access.</p>\r\n<h3>Model notes</h3><p>Georeferencing corrected; geometry retained. Heights are local.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p><a href=\"https://github.com/Geonovum/GeoBIM_Georefereren/tree/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_B%26U/Project%20S1\" target=\"_blank\" rel=\"noopener noreferrer\">Geonovum and original model authors</a> · <a href=\"https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">W3C</a></p>\r\n<h3>3DBAG surroundings</h3><p>The neighbouring buildings in <code>OMG_KS_3dBAG.ifc</code> are derived from 3DBAG. <a href=\"https://docs.3dbag.nl/en/copyright/\" target=\"_blank\" rel=\"noopener noreferrer\">© 3DBAG by tudelft3d and 3DGI</a> · <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 4.0</a>. Geonovum distributes the IFC conversion. This example corrects its IFC georeferencing metadata before import; original geometry and local model heights are retained.</p>\r\n<p>The example corrects IFC georeferencing metadata using the published S1 horizontal placement before normal import. Original geometry is retained. Local model heights are used; no surveyed elevation is claimed.</p>"
+    },
+    {
+      "id": "ifc-quantity-takeoff",
+      "path": "examples/ifc-quantity-takeoff/index.html",
+      "href": "/examples/ifc-quantity-takeoff/index.html",
+      "title": "Select spaces from a table",
+      "category": "IFC data",
+      "description": "Browse space names, floors and stored areas, then click a row to select the space in the model.",
+      "capabilities": [
+        "Space table",
+        "Selection"
+      ],
+      "formats": [
+        "IFC"
+      ],
+      "assetIds": [
+        "clinic-architectural"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/ifc-quantity-takeoff/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>Select spaces from a table</h2><p data-example-description>Browse space names, floors and stored areas, then click a row to select the space in the model.</p>\r\n<h3>Try it</h3><p>Scroll the table of names, floors and areas, then click a row to highlight its space in the model. The selected row stays highlighted. Click 1 element selected at the top left to open Properties for that space. Pan, zoom and orbit with the viewer's controls.</p>\r\n<h3>Developer integration</h3><p>The public <code>viewer.IfcAPI</code> reads all 269 <code>IfcSpace</code> occurrences from the full clinic architectural model. The table shows their original room numbers and names, containing floors and stored GSA BIM Area quantities, sorted by room number. The area unit is queried from the model and explicit quantity units are honored; missing quantities are shown as Missing. The clinic provides a populated space schedule. BCF visibility exceptions and <code>SpacesVisible</code> reveal all spaces, while BCF selection highlights the clicked GlobalId. Loading and errors use the SDK message API.</p><p>Copy this HTML and serve it over HTTP. The published SDK and unchanged model download require internet access.</p>\r\n<p>The page opens the original source bytes with <code>await viewer.IfcAPI</code>, reads native model data, then closes the model and disposes WASM before displaying the source with <code>viewer.add()</code>. See the <a href=\"https://thatopen.github.io/engine_web-ifc/docs/classes/web-ifc.IfcAPI.html\">complete web-ifc API reference</a>.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p class=\"note\">BSI (2020) “Medical-Dental Test Files,” buildingSMART International. Original project provided to the US Construction Engineering Research Laboratory; formerly hosted by the US National Institute of Building Sciences. <a href=\"https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20(IFC%202x3)/Medical-Dental%20Clinic/Clinic_Architectural.ifc\">Clinic architecture · 13 MB</a> · <a href=\"https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/LICENSE\">CC BY 4.0</a>. Original IFC contents are unchanged. Viewer licensing uses the SDK's existing account controls.</p>"
+    },
+    {
+      "id": "storey-visibility",
+      "path": "examples/storey-visibility/index.html",
+      "href": "/examples/storey-visibility/index.html",
+      "title": "Show or hide building storeys",
+      "category": "Buildings",
+      "description": "Choose which storeys to display using the building components assigned to each level.",
+      "capabilities": [
+        "Storey visibility"
+      ],
+      "formats": [
+        "IFC",
+        "BCF"
+      ],
+      "assetIds": [
+        "west-riverside-arc-ifc4"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/storey-visibility/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>Show or hide building storeys</h2><p data-example-description>Choose which storeys to display using the building components assigned to each level.</p><h3>Inspect levels</h3><p>Toggle a storey to show or hide its components. Unassigned components have their own option. This example changes visibility; it does not cut the model. Select a component, then click <strong>1 element selected</strong> at the top left to open Properties.</p><h3>Developer integration</h3><p>The component identifiers, names and storey memberships are queried through the native <code>viewer.IfcAPI</code>. The original architectural IFC4 file is hash-verified and imported unchanged. BCF views are written with <code>bcf.save()</code>, imported with <code>viewer.add()</code>, and applied with <code>viewer.selectTopic()</code>. Open <strong>Topics</strong> (speech bubble) on the left toolbar to inspect the generated viewpoint.</p><p>The spatial tree supplies level names and element membership. Components nested in spaces or assemblies inherit the enclosing storey.</p><p>The page opens the original source bytes with <code>await viewer.IfcAPI</code>, reads native model data, then closes the model and disposes WASM before displaying the source with <code>viewer.add()</code>. See the <a href=\"https://thatopen.github.io/engine_web-ifc/docs/classes/web-ifc.IfcAPI.html\">complete web-ifc API reference</a>.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2>\r\n<p>Solihin, W. West Riverside Hospital IFC Models. Donated by Wawan Solihin (Singapore) and hosted on the OpenIFC Model Repository by Professor Robert Amor, University of Auckland. <a href=\"https://openifcmodel.cs.auckland.ac.nz/\" target=\"_blank\" rel=\"noopener noreferrer\">Original repository</a>. Distributed by Sylvain Hellin in <a href=\"https://huggingface.co/datasets/sylvainHellin/ifc-bench/tree/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital\" target=\"_blank\" rel=\"noopener noreferrer\">IFC-Bench at the pinned revision</a>.</p>\r\n<p>The architectural IFC4 file is imported unchanged; the other discipline models are not loaded. The model-specific <a href=\"https://huggingface.co/datasets/sylvainHellin/ifc-bench/blob/1288fc91655823a36900b7bb75a671d5fa444afd/projects/west_riverside_hospital/license.txt\" target=\"_blank\" rel=\"noopener noreferrer\">source license notice</a> specifies <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"noopener noreferrer\">Creative Commons Attribution 3.0 Unported</a> for these models.</p>"
+    },
+    {
+      "id": "sixty5",
+      "path": "examples/sixty5/index.html",
+      "href": "/examples/sixty5/index.html",
+      "title": "Inspect component classifications",
+      "category": "Buildings",
+      "description": "Select a building component to read its properties and classification references, then compare it with another component.",
+      "capabilities": [
+        "Large models",
+        "Properties",
+        "Classification",
+        "Search"
+      ],
+      "formats": [
+        "IFC"
+      ],
+      "assetIds": [
+        "s1"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/sixty5/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>Inspect component classifications</h2>\n<p data-example-description>Select a building component to read its properties and classification references, then compare it with another component.</p>\n<h3>Try it</h3><ol><li>Select a component, then click 1 element selected at the top left to open Properties. Expand Associations to inspect its classification references.</li><li>Use Search properties at the top of the Properties panel to filter its values.</li><li>Compare the classification references of two components.</li></ol><h2>Developer integration</h2><p>Import the original classification example with <code>viewer.add()</code>. Search and property inspection remain SDK controls. This page demonstrates reading the model's classifications, not editing them. The source model is about 395 MB.</p><p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. Open <code>http://localhost:8080/</code>; the SDK and sample downloads require internet access.</p>\n<h3>Model notes</h3><p>The original IFC source is imported unchanged.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p><a href=\"https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20(IFC%202x3)/SDK%20-%20S1/bSDD_references_example.ifc\" target=\"_blank\" rel=\"noopener noreferrer\">Stam + De Koning and original model authors</a> · <a href=\"https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 4.0</a></p><p>The original classification model is imported unchanged.</p>"
+    },
+    {
+      "id": "room-info",
+      "path": "examples/room-info/index.html",
+      "href": "/examples/room-info/index.html",
+      "title": "Read room labels on a floor plan",
+      "category": "Buildings",
+      "description": "Read room numbers, names and areas for all 154 rooms on the clinic’s first floor.",
+      "capabilities": [
+        "Floor plans",
+        "Room labels"
+      ],
+      "formats": [
+        "IFC",
+        "BCF",
+        "PNG"
+      ],
+      "assetIds": [
+        "clinic-architectural"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/room-info/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>Read room labels on a floor plan</h2>\r\n<p data-example-description>Read room numbers, names and areas for all 154 rooms on the clinic’s first floor.</p>\r\n<h3>Use the plan</h3><p>The opening view shows a dense group of rooms on the first floor. Pan across the floor and zoom to read the other labels. Every first-floor IfcSpace has a label, including circulation and support spaces. The left toolbar’s Topics panel restores the opening plan; Sections shows its floor cut. Select a component and click 1 element selected at the top left for Properties.</p>\r\n<h3>Developer integration</h3><p><code>viewer.IfcAPI</code> queries the storey, spaces, identifiers, names, units, placements and swept footprint profiles from the source IFC. Label positions and footprint areas are calculated from those returned profiles; no room schedule or label coordinates are embedded. Labels fit inside the footprint, and the BCF camera opens a readable view centred on its queried bounds. The clinic model supplies a populated space schedule.</p><p>The page opens the original source bytes with <code>await viewer.IfcAPI</code>, reads native model data, then closes the model and disposes WASM before displaying the source with <code>viewer.add()</code>. See the <a href=\"https://thatopen.github.io/engine_web-ifc/docs/classes/web-ifc.IfcAPI.html\">complete web-ifc API reference</a>.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p>BSI (2020) “Medical-Dental Test Files,” buildingSMART International. Original project provided to the US Construction Engineering Research Laboratory; formerly hosted by the US National Institute of Building Sciences. <a href=\"https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20(IFC%202x3)/Medical-Dental%20Clinic/Clinic_Architectural.ifc\" target=\"_blank\" rel=\"noopener noreferrer\">Original architectural IFC at the pinned revision</a>. <a href=\"https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 4.0</a>. The model is unchanged. The embedded room labels are derived from its first-floor spaces; areas are calculated from their footprints.</p>"
+    },
+    {
+      "id": "autzen",
+      "path": "examples/autzen/index.html",
+      "href": "/examples/autzen/index.html",
+      "title": "Measure and section a point cloud",
+      "category": "Reality capture",
+      "description": "Measure distances between scan points and cut through a site survey to inspect ground, buildings and vegetation.",
+      "capabilities": [
+        "LiDAR",
+        "Classified source",
+        "Large scans",
+        "Measurements",
+        "Sections"
+      ],
+      "formats": [
+        "LAZ"
+      ],
+      "assetIds": [
+        "autzen-classified"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/autzen/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>Measure and section a point cloud</h2>\n<p data-example-description>Measure distances between scan points and cut through a site survey to inspect ground, buildings and vegetation.</p>\n<h3>Measure site access</h3><ol><li>Find a street or approach beside the stadium and zoom to its edges.</li><li>On the left toolbar, open Measure (ruler) → Add measurement. Set Measure Mode to Length and pick two survey points to measure a route or its width.</li><li>Measure a second route to compare the available space.</li></ol>\n<h3>Inspect a scan section</h3><ol><li>Find the stadium edge and its surrounding ground.</li><li>On the left toolbar, open Sections (scissors) → Add clipping plane, then click a surface to cut through the scan and examine ground and elevated features.</li><li>Drag the section to compare nearby buildings and vegetation.</li></ol>\n<h3>Developer integration</h3><p>Load the original classified LAZ survey once with <code>viewer.add()</code>. The SDK provides point picking, measurement and section controls for the same scan. Source classification is preserved. The survey was captured in 2010 and classified by Max Sampson, Hobu, Inc. in 2021; these exercises do not represent a current site access assessment.</p><p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. Open <code>http://localhost:8080/</code>; the SDK and sample downloads require internet access.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p><a href=\"https://github.com/PDAL/data/blob/ce0024257c573526389c4db9ab26e82739b8aaa9/autzen/autzen-classified.laz\" target=\"_blank\" rel=\"noopener noreferrer\">© Aaron Reyna, Watershed Sciences, Inc. · Classification: Max Sampson, Hobu, Inc. (2021)</a> · <a href=\"https://github.com/PDAL/data/blob/ce0024257c573526389c4db9ab26e82739b8aaa9/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 4.0</a></p>"
+    },
+    {
+      "id": "selection",
+      "path": "examples/selection/index.html",
+      "href": "/examples/selection/index.html",
+      "title": "Select elements from a work schedule",
+      "category": "Host integration",
+      "description": "Choose a wall-installation activity to highlight the walls assigned to it in the building model.",
+      "capabilities": [
+        "Selection"
+      ],
+      "formats": [
+        "IFC",
+        "BCF"
+      ],
+      "assetIds": [
+        "bim-whale-advanced"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/selection/thumbnail.webp",
+      "audience": "Developer integration",
+      "guideHtml": "<h2 data-example-title>Select elements from a work schedule</h2>\n<p data-example-description>Choose a wall-installation activity to highlight the walls assigned to it in the building model.</p>\n<h2>Developer integration</h2><p>The page queries walls and their containing storeys through <code>viewer.IfcAPI</code>, then builds a wall-installation activity for each returned storey. Labels, membership and counts come from the loaded model. The click handler builds a selection-only BCF update, writes it with <code>bcf.save()</code>, then applies it with <code>viewer.add()</code> and <code>viewer.selectTopic()</code>. One topic is reused; no camera, colors or visibility filters are supplied.</p><p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. Open <code>http://localhost:8080/</code>; the SDK and sample downloads require internet access.</p>\n<p>The page opens the original source bytes with <code>await viewer.IfcAPI</code>, reads native model data, then closes the model and disposes WASM before displaying the source with <code>viewer.add()</code>. See the <a href=\"https://thatopen.github.io/engine_web-ifc/docs/classes/web-ifc.IfcAPI.html\">complete web-ifc API reference</a>.</p>",
+      "noticesHtml": "<h2>Model source and license</h2><p>BIM Whale Advanced Project. Copyright (c) 2020 André \"MG\" Wisén. <a href=\"https://github.com/andrewisen/bim-whale-ifc-samples/blob/595fa90e3af7120d004fcb37a79d8657f1d1c9c2/AdvancedProject/IFC/AdvancedProject.ifc\" target=\"_blank\" rel=\"noopener noreferrer\">Original IFC at the pinned revision</a> · <a href=\"https://github.com/andrewisen/bim-whale-ifc-samples/blob/595fa90e3af7120d004fcb37a79d8657f1d1c9c2/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">MIT License</a>. The original IFC2x3 file is imported unchanged.</p>"
+    },
+    {
+      "id": "window-width",
+      "path": "examples/window-width/index.html",
+      "href": "/examples/window-width/index.html",
+      "title": "Find windows by width",
+      "category": "Buildings",
+      "description": "Compare window widths against a nominal size threshold and highlight the matching windows.",
+      "capabilities": [
+        "Window dimensions"
+      ],
+      "formats": [
+        "IFC",
+        "BCF"
+      ],
+      "assetIds": [
+        "bim-whale-advanced"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/window-width/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>Find windows by width</h2><p data-example-description>Compare window widths against a nominal size threshold and highlight the matching windows.</p><h3>Review widths</h3><p>Move the width slider. Amber windows meet the threshold; blue windows are narrower. Select a window, then click <strong>1 element selected</strong> at the top left for Properties.</p><h3>Developer integration</h3><p>The component identifiers, names, dimensions and memberships are queried through the native <code>viewer.IfcAPI</code>. The original IFC2x3 file is hash-verified and imported unchanged. BCF views are written with <code>bcf.save()</code>, imported with <code>viewer.add()</code>, and applied with <code>viewer.selectTopic()</code>. Open <strong>Topics</strong> (speech bubble) on the left toolbar to inspect the generated viewpoint.</p><p>The page reads each window’s OverallWidth attribute and the project length unit, converts widths to millimetres, then builds the two color sets at runtime.</p><p>The page opens the original source bytes with <code>await viewer.IfcAPI</code>, reads native model data, then closes the model and disposes WASM before displaying the source with <code>viewer.add()</code>. See the <a href=\"https://thatopen.github.io/engine_web-ifc/docs/classes/web-ifc.IfcAPI.html\">complete web-ifc API reference</a>.</p>",
+      "noticesHtml": "<h2>Model source and license</h2><p>BIM Whale Advanced Project. Copyright (c) 2020 André \"MG\" Wisén. <a href=\"https://github.com/andrewisen/bim-whale-ifc-samples/blob/595fa90e3af7120d004fcb37a79d8657f1d1c9c2/AdvancedProject/IFC/AdvancedProject.ifc\" target=\"_blank\" rel=\"noopener noreferrer\">Original IFC at the pinned revision</a> · <a href=\"https://github.com/andrewisen/bim-whale-ifc-samples/blob/595fa90e3af7120d004fcb37a79d8657f1d1c9c2/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">MIT License</a>. The original IFC2x3 file is imported unchanged.</p>"
+    },
+    {
+      "id": "view-table",
+      "path": "examples/view-table/index.html",
+      "href": "/examples/view-table/index.html",
+      "title": "Show selected components in a table",
+      "category": "Integration",
+      "description": "Click a duct or fitting to see its name, floor and system in a table. Select more components to compare their records.",
+      "capabilities": [
+        "Selection",
+        "Linked table"
+      ],
+      "formats": [
+        "IFC"
+      ],
+      "assetIds": [
+        "clinic-hvac"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/view-table/thumbnail.webp",
+      "audience": "Developer integration",
+      "guideHtml": "<h2 data-example-title>Show selected components in a table</h2><p data-example-description>Click a duct or fitting to see its name, floor and system in a table. Select more components to compare their records.</p><h3>Try it</h3><p>Click a duct or fitting. Ctrl/⌘+click adds components to the selection and table.</p><h3>Developer integration</h3><p><code>viewer.onViewChange</code> provides selected GlobalIds. The page resolves them through <code>viewer.IfcAPI.GetExpressIdFromGuid</code>, then queries entity names, storeys and property sets from its independently opened native model. It does not ship a cached property table. An outdated query cannot replace a newer selection.</p><p>The page keeps its native IFC model open for selection queries and closes it when the page is unloaded. <code>viewer.clear()</code> controls only the rendered model. Native calls run on the main thread. See the <a href=\"https://thatopen.github.io/engine_web-ifc/docs/classes/web-ifc.IfcAPI.html\">complete web-ifc API reference</a>.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p class=\"note\"><a href=\"https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20(IFC%202x3)/Medical-Dental%20Clinic/Clinic_HVAC.ifc\" target=\"_blank\" rel=\"noopener noreferrer\">buildingSMART clinic HVAC · 27 MB</a> · <a href=\"https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 4.0</a></p>\n<p>BSI (2020) “Medical-Dental Test Files,” buildingSMART International. Original project provided to the US Construction Engineering Research Laboratory; formerly hosted by the US National Institute of Building Sciences. The HVAC IFC is imported unchanged.</p>"
+    },
+    {
+      "id": "zurich-district",
+      "path": "examples/zurich-district/index.html",
+      "href": "/examples/zurich-district/index.html",
+      "title": "View a district with buildings and terrain",
+      "category": "Infrastructure",
+      "description": "View district buildings and model terrain on a map, then turn on map terrain to compare the wider landscape.",
+      "capabilities": [
+        "Georeferencing",
+        "Urban context",
+        "Terrain",
+        "Large models"
+      ],
+      "formats": [
+        "IFC"
+      ],
+      "assetIds": [
+        "zurich-district"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/zurich-district/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>View a district with buildings and terrain</h2>\n<p data-example-description>View district buildings and model terrain on a map, then turn on map terrain to compare the wider landscape.</p>\n<h3>Try it</h3><ol><li>Compare the district buildings and streets with the map.</li><li>Select terrain or a building to identify its IFC properties.</li><li>Open View at the top right → Layers and enable Terrain heights (30 m) to compare the wider surface with the model terrain.</li></ol><h2>Developer integration</h2><p>Import the geographic IFC with <code>viewer.add()</code> and show its map with <code>viewer.toggleMap(true)</code>. The model includes terrain; optional map terrain is a 30 m surface. Use this example for urban context, not detailed construction levels.</p><p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. Open <code>http://localhost:8080/</code>; the SDK and sample downloads require internet access.</p>\n<h3>Model notes</h3><p>Urban context with model terrain. Optional terrain is a 30 m surface.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p><a href=\"https://github.com/louistrue/ifc-site/blob/675ff0afe440f5390a66c2bb170bd381e7d9053e/results/showcase_zurich_paradeplatz.ifc\" target=\"_blank\" rel=\"noopener noreferrer\">louistrue</a> · <a href=\"https://www.swisstopo.admin.ch/en/faq-free-geodata\" target=\"_blank\" rel=\"noopener noreferrer\">swisstopo</a> · © <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener noreferrer\">OpenStreetMap contributors</a> · <a href=\"https://github.com/louistrue/ifc-site/blob/675ff0afe440f5390a66c2bb170bd381e7d9053e/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">AGPL-3.0 / OGD / ODbL-1.0</a></p><p>CHGeo2004 / HTRANS ETRS89-LN02 · <a href=\"https://www.swisstopo.admin.ch/en/geoid-en\" target=\"_blank\" rel=\"noopener noreferrer\">swisstopo (CC0)</a> · <a href=\"https://cms.geo.admin.ch/ogd/geodesy/Geoid_OGD.zip\" target=\"_blank\" rel=\"noopener noreferrer\">Original grid</a>. The grid is unchanged.</p>\n<p>Complete original published IFC4 urban geodata export; contents unchanged. Buildings, terrain and mapped infrastructure use Swiss LV95 (EPSG:2056), metre units and the declared LN02 height datum. The model includes its own IFC terrain; the optional 30 m Copernicus surface includes roofs and vegetation. This is geographic context data, not a detailed construction-design model.</p>"
+    },
+    {
+      "id": "s1-structure",
+      "path": "examples/s1-structure/index.html",
+      "href": "/examples/s1-structure/index.html",
+      "title": "Inspect connections between building models",
+      "category": "Buildings",
+      "description": "View the structural frame, facade and stairs together, then hide the facade to inspect where the models meet.",
+      "capabilities": [
+        "Federation",
+        "Structure",
+        "Facade",
+        "Visibility"
+      ],
+      "formats": [
+        "IFC"
+      ],
+      "assetIds": [
+        "s1-structure",
+        "s1-facade",
+        "s1-stairs"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/s1-structure/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>Inspect connections between building models</h2>\n<p data-example-description>View the structural frame, facade and stairs together, then hide the facade to inspect where the models meet.</p>\n<h3>Try it</h3><ol><li>Open Files (folder) on the left toolbar and clear the checkbox beside the BIM prefab facade file to identify the frame behind it.</li><li>Compare a facade panel with the nearby floor and structural components.</li><li>Select a component, then click 1 element selected at the top left to inspect its properties and source model. Repeat with a component from another discipline.</li></ol><h2>Developer integration</h2><p>Use repeated <code>viewer.add()</code> calls to federate the three IFCs. File visibility and properties remain SDK controls. This example focuses on discipline interfaces and imports the original source files unchanged.</p><p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. Open <code>http://localhost:8080/</code>; the SDK and sample downloads require internet access.</p>\n<h3>Model notes</h3><p>The original IFC source is imported unchanged.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p><a href=\"https://github.com/Geonovum/GeoBIM_Georefereren/tree/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_B%26U/Project%20S1\" target=\"_blank\" rel=\"noopener noreferrer\">Geonovum and original model authors</a> · <a href=\"https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">W3C</a></p>\n<p>The original source files are imported unchanged.</p>"
+    },
+    {
+      "id": "infra",
+      "path": "examples/infra/index.html",
+      "href": "/examples/infra/index.html",
+      "title": "Explore bridge cross-sections",
+      "category": "Infrastructure",
+      "description": "Move a section cut along a bridge alignment to inspect the structure at different distances along the route.",
+      "capabilities": [
+        "Alignments",
+        "Bridges",
+        "Sections"
+      ],
+      "formats": [
+        "IFC"
+      ],
+      "assetIds": [],
+      "steps": [],
+      "thumbnail": "/examples/infra/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>Explore bridge cross-sections</h2>\n<p data-example-description>Move a section cut along a bridge alignment to inspect the structure at different distances along the route.</p>\n<h3>Try it</h3><ol><li>Open Sections (scissors) on the left toolbar and click Bridge under Alignments.</li><li>Enable Cross-section at station, then enter a distance in Station / KP (m) to move the cut along the bridge. KP is distance along the alignment.</li><li>Use Next station or enter another distance to compare cross-sections.</li></ol><h2>Developer integration</h2><p>Pass the published bridge sample to <code>viewer.add()</code>. Alignment navigation and KP sections are SDK controls; the host does not implement route navigation.</p><p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. Open <code>http://localhost:8080/</code>; the SDK and sample downloads require internet access.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p><a href=\"https://github.com/buildingSMART/IFC4.x-IF/blob/75c7c7aa6c523e76a01cb4cf9542f896956fb92d/IFC-files/ACCA/Bridge-for-MINnD/Viadotto%20Acerno.zip\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Viadotto Acerno.zip\">buildingSMART infrastructure samples</a></p>\n<p>ACCA software, published by buildingSMART International. The archive is downloaded from the pinned upstream revision; the extracted IFC is imported unchanged. <a href=\"https://github.com/buildingSMART/IFC4.x-IF/tree/75c7c7aa6c523e76a01cb4cf9542f896956fb92d/IFC-files\" target=\"_blank\" rel=\"noopener noreferrer\">Source documentation</a>. No dataset license is stated in the repository documentation.</p>"
+    },
+    {
+      "id": "rotterdam-bridge",
+      "path": "examples/rotterdam-bridge/index.html",
+      "href": "/examples/rotterdam-bridge/index.html",
+      "title": "View a bridge on a map",
+      "category": "Infrastructure",
+      "description": "See how a bridge connects the surrounding roads across a river, and switch between street and satellite maps.",
+      "capabilities": [
+        "IFC4x3",
+        "Bridges",
+        "Maps"
+      ],
+      "formats": [
+        "IFC"
+      ],
+      "assetIds": [
+        "van-brienenoord"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/rotterdam-bridge/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>View a bridge on a map</h2>\r\n<p data-example-description>See how a bridge connects the surrounding roads across a river, and switch between street and satellite maps.</p>\r\n<h3>Try it</h3><ol><li>Use the map to locate the bridge relative to the roads and river.</li><li>Open View at the top right → Layers and choose Satellite or Street to compare the model with the surrounding area.</li><li>Zoom between the bridge and its wider setting.</li></ol><h2>Developer integration</h2><p>After <code>viewer.add()</code>, call <code>viewer.toggleMap(true)</code> to show the project's map context. The SDK owns map styles and terrain controls. The source placement and height limitations are listed under Model notes.</p><p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. Open <code>http://localhost:8080/</code>; the SDK and sample downloads require internet access.</p>\r\n<p>The host uses <code>await viewer.IfcAPI</code> to open the hash-verified source, writes the projected CRS vertical datum with <code>WriteLine()</code>, and saves the edited bytes with <code>SaveModel()</code>. It closes the native model and disposes WASM before <code>viewer.add()</code>. See the <a href=\"https://thatopen.github.io/engine_web-ifc/docs/classes/web-ifc.IfcAPI.html\">complete web-ifc API reference</a>.</p><h3>Model notes</h3><p>Height datum set to NAP (inferred); geometry retained. The publisher reports a small XYZ offset. Optional terrain is a 30 m surface.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p><a href=\"https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_Infra/Van%20Brienenoordbrug-IFC4X3.ifc\" target=\"_blank\" rel=\"noopener noreferrer\">Geonovum and original model authors</a> · <a href=\"https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">W3C</a></p>\r\n<p>The example supplements the missing vertical datum as NAP, inferred from the publisher’s successful height validation against AHN (NAP). Original geometry, map-conversion coordinates and heights are retained. The publisher reports a small XYZ offset against AHN. Copernicus is a 30 m surface model, so this is not a certified survey overlay.</p>"
+    },
+    {
+      "id": "bcf-annotations",
+      "path": "examples/bcf-annotations/index.html",
+      "href": "/examples/bcf-annotations/index.html",
+      "title": "Review saved annotations at a stair opening",
+      "category": "Coordination",
+      "description": "Open an existing BCF outline and arrow in a close section view to review the stair opening and its approach.",
+      "capabilities": [
+        "Annotations",
+        "Viewpoints"
+      ],
+      "formats": [
+        "IFC",
+        "BCF"
+      ],
+      "assetIds": [
+        "bim-whale-advanced"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/bcf-annotations/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2 data-example-title>Review saved annotations at a stair opening</h2>\r\n<p data-example-description>Open an existing BCF outline and arrow in a close section view to review the stair opening and its approach.</p>\r\n<h3>Try it</h3>\r\n<p>The saved viewpoint opens automatically. A rectangle marks the stair opening and an arrow leads from the approach toward the landing. The close oblique section exposes the stair flight, handrail and neighboring rooms. Orbit or zoom to inspect the relationship, then click Restore annotated view to return to the review camera.</p>\r\n<p>Open Topics (speech bubble) on the left toolbar and select Review stair opening protection to read the coordination note. Select a component, then click 1 element selected at the top left to open Properties.</p>\r\n<h3>Developer integration</h3>\r\n<p>This page imports the full BIM Whale Advanced Project and an existing BCF 3.0 archive embedded in the inline configuration. The archive already contains a bold closed rectangle and arrow built from closely spaced BCF line segments, an orthogonal camera and six clipping planes. The review geometry uses the pinned model's Z-up world coordinates in meters. The lines and saved camera are authored inputs; the page does not generate annotations from IFC properties.</p>\r\n<p><code>bcf.load()</code> reads the saved topic identifier, <code>viewer.add()</code> imports the original archive bytes, and <code>viewer.selectTopic()</code> restores the annotated view. The SDK renders the model and annotations together. Restoring the view reuses the imported topic. Retry sample retains completed imports.</p>\r\n<p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. The published SDK and full model download require internet access.</p>",
+      "noticesHtml": "<h2>Model source and license</h2><p>BIM Whale Advanced Project. Copyright (c) 2020 André \"MG\" Wisén. <a href=\"https://github.com/andrewisen/bim-whale-ifc-samples/blob/595fa90e3af7120d004fcb37a79d8657f1d1c9c2/AdvancedProject/IFC/AdvancedProject.ifc\" target=\"_blank\" rel=\"noopener noreferrer\">Original IFC at the pinned revision</a> · <a href=\"https://github.com/andrewisen/bim-whale-ifc-samples/blob/595fa90e3af7120d004fcb37a79d8657f1d1c9c2/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">MIT License</a>. The original IFC2x3 file is imported unchanged.</p>\r\n\r\n<h2>Saved coordination markup</h2><p>The review note, outline, arrow, camera and section box were authored for this example and saved in the embedded BCF archive. They illustrate a guarding review at the stair opening; they are not an issue report from the model author.</p>"
+    },
+    {
+      "id": "bcf-2d",
+      "path": "examples/bcf-2d/index.html",
+      "href": "/examples/bcf-2d/index.html",
+      "title": "Switch between top-down and 3D views",
+      "category": "Buildings",
+      "description": "View the whole building from above, choose a north-up or rotated view, then return to 3D.",
+      "capabilities": [
+        "2D views"
+      ],
+      "formats": [
+        "IFC",
+        "BCF"
+      ],
+      "assetIds": [
+        "bim-whale-advanced"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/bcf-2d/thumbnail.webp",
+      "audience": "Developer integration",
+      "guideHtml": "<h2 data-example-title>Switch between top-down and 3D views</h2>\n<p data-example-description>View the whole building from above, choose a north-up or rotated view, then return to 3D.</p>\n<h2>Developer integration</h2><p>An integration can open a saved overview using a BCF camera instead of implementing its own navigation controls. The downward orthographic cameras enable 2D panning, with north-up and 30° orientations. A perspective camera restores 3D navigation. These are whole-model views without floor cuts. The page writes camera data with <code>bcf.save()</code>, imports it with <code>viewer.add()</code> and applies it with <code>viewer.selectTopic()</code>.</p><p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. Open <code>http://localhost:8080/</code>; the SDK and sample downloads require internet access.</p>\n<p>The page opens the original source bytes with <code>await viewer.IfcAPI</code>, reads native model data, then closes the model and disposes WASM before displaying the source with <code>viewer.add()</code>. See the <a href=\"https://thatopen.github.io/engine_web-ifc/docs/classes/web-ifc.IfcAPI.html\">complete web-ifc API reference</a>.</p>",
+      "noticesHtml": "<h2>Model source and license</h2><p>BIM Whale Advanced Project. Copyright (c) 2020 André \"MG\" Wisén. <a href=\"https://github.com/andrewisen/bim-whale-ifc-samples/blob/595fa90e3af7120d004fcb37a79d8657f1d1c9c2/AdvancedProject/IFC/AdvancedProject.ifc\" target=\"_blank\" rel=\"noopener noreferrer\">Original IFC at the pinned revision</a> · <a href=\"https://github.com/andrewisen/bim-whale-ifc-samples/blob/595fa90e3af7120d004fcb37a79d8657f1d1c9c2/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">MIT License</a>. The original IFC2x3 file is imported unchanged.</p>"
+    },
+    {
+      "id": "bcf-visibility",
+      "path": "examples/bcf-visibility/index.html",
+      "href": "/examples/bcf-visibility/index.html",
+      "title": "Show or hide component groups",
+      "category": "Coordination",
+      "description": "Switch between saved visibility presets to show only rooms, focus on doors and windows, or hide spaces and openings.",
+      "capabilities": [
+        "BCF",
+        "visibility",
+        "Viewpoints"
+      ],
+      "formats": [
+        "IFC",
+        "BCF"
+      ],
+      "assetIds": [],
+      "steps": [],
+      "thumbnail": "/examples/bcf-visibility/thumbnail.webp",
+      "audience": "Developer integration",
+      "guideHtml": "<h2 data-example-title>Show or hide component groups</h2>\n<p data-example-description>Switch between saved visibility presets to show only rooms, focus on doors and windows, or hide spaces and openings.</p>\n<h2>Developer integration</h2><p>Use BCF visibility to share a focused coordination view. The presets demonstrate hiding doors and windows, showing only doors and windows, hiding spaces/boundaries/openings, and showing spaces alone. With <code>DefaultVisibility=true</code>, exceptions are hidden; with <code>false</code>, exceptions are shown. Setup hints separately control space volumes and openings. Apply the saved state with <code>bcf.save()</code>, <code>viewer.add()</code> and <code>viewer.selectTopic()</code>.</p><p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. Open <code>http://localhost:8080/</code>; the SDK and sample downloads require internet access.</p>\n<p>Component groups and project identifiers are queried from source bytes through the native <code>viewer.IfcAPI</code>. Colors, camera poses and cutting planes are authored BCF inputs.</p><p>The page opens the original source bytes with <code>await viewer.IfcAPI</code>, reads native model data, then closes the model and disposes WASM before displaying the source with <code>viewer.add()</code>. See the <a href=\"https://thatopen.github.io/engine_web-ifc/docs/classes/web-ifc.IfcAPI.html\">complete web-ifc API reference</a>.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p><a href=\"https://github.com/buildingsmart-community/Community-Sample-Test-Files/tree/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20(IFC%202x3)/Medical-Dental%20Clinic\" target=\"_blank\" rel=\"noopener noreferrer\">BSI (2020) “Medical-Dental Test Files,” buildingSMART International</a> · <a href=\"https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 4.0</a></p>"
+    },
+    {
+      "id": "bcf-coloring",
+      "path": "examples/bcf-coloring/index.html",
+      "href": "/examples/bcf-coloring/index.html",
+      "title": "Color components by type",
+      "category": "Coordination",
+      "description": "Use different colors for walls, slabs, doors, windows and rooms so each group is easy to identify.",
+      "capabilities": [
+        "BCF",
+        "coloring",
+        "Viewpoints"
+      ],
+      "formats": [
+        "IFC",
+        "BCF"
+      ],
+      "assetIds": [],
+      "steps": [],
+      "thumbnail": "/examples/bcf-coloring/thumbnail.webp",
+      "audience": "Developer integration",
+      "guideHtml": "<h2 data-example-title>Color components by type</h2>\n<p data-example-description>Use different colors for walls, slabs, doors, windows and rooms so each group is easy to identify.</p>\n<h2>Developer integration</h2><p>The architectural clinic model opens with red walls, purple slabs, amber doors/windows and green rooms. BCF coloring assigns each group of IFC GlobalIds a color; eight-digit colors use ARGB, including transparency. The page writes one viewpoint with <code>bcf.save()</code> and applies it with <code>viewer.add()</code> and <code>viewer.selectTopic()</code>.</p>\n<p>Click a colored component, then click 1 element selected at the top left to open Properties.</p>\n<p>Component groups and project identifiers are queried from source bytes through the native <code>viewer.IfcAPI</code>. Colors, camera poses and cutting planes are authored BCF inputs.</p><p>The page opens the original source bytes with <code>await viewer.IfcAPI</code>, reads native model data, then closes the model and disposes WASM before displaying the source with <code>viewer.add()</code>. See the <a href=\"https://thatopen.github.io/engine_web-ifc/docs/classes/web-ifc.IfcAPI.html\">complete web-ifc API reference</a>.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p><a href=\"https://github.com/buildingsmart-community/Community-Sample-Test-Files/tree/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20(IFC%202x3)/Medical-Dental%20Clinic\" target=\"_blank\" rel=\"noopener noreferrer\">BSI (2020) “Medical-Dental Test Files,” buildingSMART International</a> · <a href=\"https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 4.0</a></p>"
+    },
+    {
+      "id": "dispose",
+      "path": "examples/dispose/index.html",
+      "href": "/examples/dispose/index.html",
+      "title": "Switch between projects on a map",
+      "category": "Host integration",
+      "description": "Choose a project to replace the loaded model and move the map to its location in the same viewer.",
+      "capabilities": [
+        "Model lifecycle",
+        "Project switching",
+        "Georeferencing",
+        "Maps"
+      ],
+      "formats": [
+        "IFC"
+      ],
+      "assetIds": [
+        "zurich-district"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/dispose/thumbnail.webp",
+      "audience": "Developer integration",
+      "guideHtml": "<h2 data-example-title>Switch between projects on a map</h2><p data-example-description>Choose a project to replace the loaded model and move the map to its location in the same viewer.</p>\n<h3>Try it</h3><ol><li>Zürich district opens with the map enabled. Choose Rotterdam bridge to replace it and move to the Netherlands.</li><li>Choose Zürich district to switch back. Only the selected project's model is loaded.</li><li>Open View at the top right → Layers and choose Street or Satellite.</li><li>Select a component, then click 1 element selected at the top left to open Properties.</li></ol>\n<h2>Developer integration</h2><p>Create one <code>Viewer</code> and await <code>viewer.ready</code>. For each project change, await <code>viewer.clear()</code>, download the selected IFC, await <code>viewer.add()</code>, then await <code>viewer.toggleMap(true)</code>. Clearing releases the previous project's models and geographic context; enabling the map after import uses the new project's coordinates. The host never disables the map between projects or creates another viewer. Project controls are disabled during the transition to prevent overlapping imports. Download, import and map errors use the SDK message API; choose either project to retry.</p>\n<h3>Geographic placement</h3><p>Both complete IFC files are imported unchanged and have native map conversions. Zürich uses Swiss LV95 (EPSG:2056) and LN02 heights, including model terrain. Rotterdam's Van Brienenoord bridge uses Amersfoort / RD New (EPSG:28992). The bridge source does not declare a vertical datum; this example retains its original heights and does not claim survey-grade terrain alignment. The SDK owns map layers, attribution and geographic placement.</p>\n<p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. Open <code>http://localhost:8080/</code>; the SDK, models and map tiles require internet access.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p><a href=\"https://github.com/louistrue/ifc-site/blob/675ff0afe440f5390a66c2bb170bd381e7d9053e/results/showcase_zurich_paradeplatz.ifc\" target=\"_blank\" rel=\"noopener noreferrer\">louistrue</a> · <a href=\"https://www.swisstopo.admin.ch/en/faq-free-geodata\" target=\"_blank\" rel=\"noopener noreferrer\">swisstopo</a> · © <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener noreferrer\">OpenStreetMap contributors</a> · <a href=\"https://github.com/louistrue/ifc-site/blob/675ff0afe440f5390a66c2bb170bd381e7d9053e/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">AGPL-3.0 / OGD / ODbL-1.0</a></p><p>CHGeo2004 / HTRANS ETRS89-LN02 · <a href=\"https://www.swisstopo.admin.ch/en/geoid-en\" target=\"_blank\" rel=\"noopener noreferrer\">swisstopo (CC0)</a> · <a href=\"https://cms.geo.admin.ch/ogd/geodesy/Geoid_OGD.zip\" target=\"_blank\" rel=\"noopener noreferrer\">Original grid</a>. The grid is unchanged.</p>\n<h2>Rotterdam bridge</h2><p>Geonovum GeoBIM georeferencing practice dataset and original model authors. W3C Software and Document license as published in the source repository. <a href=\"https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_Infra/Van%20Brienenoordbrug-IFC4X3.ifc\" target=\"_blank\" rel=\"noopener noreferrer\">Original IFC at the pinned revision</a>. <a href=\"https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">W3C Software and Document license</a>. The IFC bytes are unchanged. The source's projected CRS does not declare a vertical datum; no terrain height correction is applied. The publisher reports a small XYZ offset against AHN. This is geographic context, not a certified survey overlay. <a href=\"https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/09%20Praktijktoets%20georefereren.md\" target=\"_blank\" rel=\"noopener noreferrer\">Publisher's placement validation</a>.</p>\n<p>Complete original published IFC4 urban geodata export; contents unchanged. Buildings, terrain and mapped infrastructure use Swiss LV95 (EPSG:2056), metre units and the declared LN02 height datum. The model includes its own IFC terrain; the optional 30 m Copernicus surface includes roofs and vegetation. This is geographic context data, not a detailed construction-design model.</p>"
+    },
+    {
+      "id": "account",
+      "path": "examples/account/index.html",
+      "href": "/examples/account/index.html",
+      "title": "Show messages in the viewer",
+      "category": "Host integration",
+      "description": "Choose a message type, enter your own text and preview information, success, warning, error or loading messages in the viewer.",
+      "capabilities": [
+        "Messages"
+      ],
+      "formats": [],
+      "assetIds": [],
+      "steps": [],
+      "thumbnail": "/examples/account/thumbnail.webp",
+      "audience": "Developer integration",
+      "guideHtml": "<h2 data-example-title>Show messages in the viewer</h2>\n<p data-example-description>Choose a message type, enter your own text and preview information, success, warning, error or loading messages in the viewer.</p>\n<h2>Developer integration</h2><p>Use <code>viewer.setMessage(textOrNull, options?)</code> for project notices. Pass a string to show a message or <code>null</code> to dismiss it. These are message previews; no project data is saved or imported by this page.</p><p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. Open <code>http://localhost:8080/</code>; the SDK and sample downloads require internet access.</p>",
+      "noticesHtml": "<h2>Sources and license notices</h2><p>No third-party model data is used by this example.</p>"
+    }
+  ]
+}

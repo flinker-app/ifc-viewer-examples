@@ -1,0 +1,31 @@
+{
+  "name": "ifc-viewer-examples",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser integration examples for the Flinker IFC Viewer SDK",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "npm run generate && vite --host 127.0.0.1",
+    "generate": "node scripts/generate-catalog.mjs",
+    "generate:check": "node scripts/generate-catalog.mjs --check",
+    "check": "node scripts/check.mjs",
+    "test": "node --test",
+    "test:browser": "node scripts/smoke-browser.mjs",
+    "test:ifc-queries": "node scripts/smoke-ifc-queries.mjs",
+    "test:workflows": "node scripts/smoke-workflows.mjs",
+    "verify:workflow-sources": "node scripts/verify-workflow-sources.mjs",
+    "build": "npm run generate && npm run check && node scripts/build.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "previews": "node scripts/generate-previews.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "sharp": "0.35.5",
+    "typescript": "5.2.2",
+    "vite": "6.4.4"
+  },
+  "engines": {
+    "node": ">=22.3.0"
+  }
+}

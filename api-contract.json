@@ -1,0 +1,9 @@
+{
+  "moduleExports": ["Viewer", "bcf", "ids"],
+  "instanceMethods": ["add", "selectTopic", "clear", "applyLicense", "setMessage", "toggleMap", "onViewChange", "createTopic", "onCopilotFilesGenerated"],
+  "instanceProperties": ["ready", "IfcAPI"],
+  "documentNamespaces": { "bcf": ["load", "save", "validate", "createArchive", "v2_1", "v3_0"], "ids": ["load", "save", "validate", "v1_0"] },
+  "deprecatedExports": ["IfcViewer", "ifcviewer", "initializeViewer", "openModel", "openBCF", "openCoordinationFile", "clearModels", "clearModel", "getRuntime", "getLoadedModels", "exportToExcel", "exportBCF", "generateBCFData", "loadIDSFromData", "licensing", "enableCopilot", "selectBCFTopic"],
+  "unsupportedUiHelpers": ["openTab"],
+  "unsupportedDomEvents": ["ifcSelectionEvent", "ifcColorEvent", "ifcPropertiesLoading", "ifcPropertiesLoaded", "idsLoadEvent"]
+}

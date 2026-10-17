@@ -1,0 +1,21 @@
+# Repository workflow
+
+- Keep the README focused on end users: a short introduction, how to open a demo, and the generated examples table. Keep developer setup, SDK internals, test procedures and publishing details out of it.
+- Use large, realistic buildings for new workflow examples. Do not use tiny demonstration buildings. Keep the MIT-licensed BIM Whale Advanced Project as the default when adapting or replacing a building example.
+- Keep SDK implementation, renderer, parser, workers, WASM and credentials out of this repository.
+- Do not copy task prompts or design and workflow inspiration links into repository content. Preserve required attribution and license notices for code, models and other assets actually used.
+- Every HTML example must stand alone: inline its JavaScript and CSS, import the published SDK directly from its pinned CDN URL, and embed any required data. Do not import local modules or depend on other examples.
+- `viewer-sdk.config.json` records the SDK version checked by repository tooling. Match it in every example's direct CDN import.
+- Show a single feature or workflow in each example. Avoid multiple workflows, complex branching, or unrelated features. Keep the example's purpose and audience clear in its title, description and guide.
+- Keep each standalone example concise: remove unused helpers, styles and format branches; read its inline asset configuration once; use native HTML behavior instead of custom control logic.
+- Let the SDK own the viewer's appearance and full-page layout. Put necessary host controls and information in the lower-right corner; keep information and instructions visible without expand, collapse or close controls.
+- When a task uses the viewer's existing controls, include short, clear instructions in the lower-right description panel. Name the toolbar location, the exact button or panel label, and the next action, including how to open selected-component properties. Keep these steps visible in the demo instead of only in its guide.
+- Use native HTML and minimal CSS defined directly in each example. Scope host styles to `.example-ui`; do not add UI libraries, global control styles or SDK theme overrides.
+- Use the viewer's loading indicator and message API for downloads, imports and errors. Do not add loading text, spinners or progress overlays to custom HTML. Visually verify desktop and mobile layouts.
+- Keep each use case in one canonical example.
+- Read model-derived identifiers, names, properties, units, storeys and relationship memberships through the published SDK API after loading the model. Do not embed precomputed workflow results or property lookup tables. Authored inputs such as source URLs, colors, thresholds and camera presets may be fixed.
+- Each example HTML owns its title, meta description, inline configuration, instructions and notices. Run `npm run generate` to derive the catalog, README table and SEO tags. The README replaces a root HTML gallery; preview and title links open the public standalone HTML pages. Do not hand-edit generated catalog data or add duplicate example metadata/guide/notice sidecars. Keep maintenance scripts and tests in `scripts/` and `tests/`.
+- Keep long documentation in the HTML's `example-guide` and `example-notices` templates. The generator exposes their content as `guideHtml` and `noticesHtml` for a documentation site surrounding an iframe. Only focused task UI and a compact source/license credit belong in the live demo. Link upstream source and license notices instead of embedding copies for assets loaded directly from those sources. Keep concise attribution, local modification notes and accessible license links. Include full notices when required for material redistributed with an example.
+- Examples may serve developers integrating the SDK or BIM users exploring workflows. Keep internal diagnostics, engine benchmarks, regression harnesses and QA fixture sweeps in the private SDK repository. Record each example's audience and purpose in its HTML.
+- Run `npm run check`, `npm test` and `npm run build` before completing changes.
+- Do not commit, push or publish unless asked.
