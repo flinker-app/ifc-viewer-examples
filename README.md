@@ -1,12 +1,24 @@
-# IFC Viewer examples
+# Flinker IFC Viewer SDK examples
 
-Explore building models, point clouds and BIM review workflows with the Flinker IFC Viewer.
+Add a complete BIM viewer to your web application with the **[Flinker IFC Viewer SDK](https://flinker.app/developers/ifc-viewer/sdk/)**. Give your users federated IFC models, component properties, BCF issue review and IDS checks inside your own product.
 
-Click a preview or example title to open a demo. Internet access is required to load the viewer and sample files.
+Load models from sources your application already controls, with parsing and rendering in the browser. Integrate through a CDN import using plain HTML, JavaScript, TypeScript, React, Vue or Angular.
 
-Example code is licensed under [Apache 2.0](LICENSE). The SDK and sample assets have separate licenses; see [third-party notices](THIRD_PARTY_NOTICES.md).
+**[Start building with the SDK](https://docs.flinker.app/docs/ifc-viewer-sdk.html#quick-start)** · [Explore the live examples](#examples)
+
+## Try the SDK in action
+
+1. Choose an example below and click its preview or title to open the live demo. No installation is needed.
+2. Follow the instructions in the lower-right corner to try the workflow.
+3. Open **Source** in the table to see how the SDK powers that workflow. Each example is a standalone HTML file with its JavaScript, CSS and configuration included, ready to inspect and adapt.
+
+Explore real buildings, infrastructure and point clouds, then use the examples as a starting point for your own integration. Internet access is required to load the SDK and sample files; large datasets can take longer to download.
+
+For local setup and contributions, follow the [contributing guide](CONTRIBUTING.md). Report problems by [opening an issue](https://github.com/flinker-app/ifc-viewer-examples/issues) with the demo link and steps to reproduce it.
 
 ## Examples
+
+**BIM workflow** examples help you explore and review models. **Developer integration** examples show how to connect viewer features to your own controls and data.
 
 <!-- generated:examples:start -->
 
