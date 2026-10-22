@@ -1,8 +1,12 @@
-# Flinker IFC Viewer SDK examples
+# Flinker IFC Viewer SDK
 
-Add a complete BIM viewer to your web application with the **[Flinker IFC Viewer SDK](https://flinker.app/developers/ifc-viewer/sdk/)**. Give your users federated IFC models, component properties, BCF issue review and IDS checks inside your own product.
+This is the public home of the **[Flinker IFC Viewer SDK](https://flinker.app/developers/ifc-viewer/sdk/)**: working examples, bug reports and feature requests. The SDK itself is proprietary and loaded from our CDN; its source code is not public. The Apache-2.0 license in this repository covers the examples, not the SDK.
+
+Add a complete BIM viewer to your web application. Give your users federated IFC models, component properties, BCF issue review and IDS checks inside your own product.
 
 Load models from sources your application already controls, with parsing and rendering in the browser. Integrate through a CDN import using plain HTML, JavaScript, TypeScript, React, Vue or Angular.
+
+**Free to use** for personal projects, evaluation and commercial apps, up to 500 requests (viewer sessions) per month with Flinker branding. Local development on localhost isn't counted, and there is no hard cutoff. [Pricing](https://flinker.app/developers/ifc-viewer/sdk/)
 
 **[Start building with the SDK](https://docs.flinker.app/docs/ifc-viewer-sdk.html#quick-start)** · [Explore the live examples](#examples)
 
@@ -14,7 +18,7 @@ Load models from sources your application already controls, with parsing and ren
 
 Explore real buildings, infrastructure and point clouds, then use the examples as a starting point for your own integration. Internet access is required to load the SDK and sample files; large datasets can take longer to download.
 
-For local setup and contributions, follow the [contributing guide](CONTRIBUTING.md). Report problems by [opening an issue](https://github.com/flinker-app/ifc-viewer-examples/issues) with the demo link and steps to reproduce it.
+For local setup and contributions, follow the [contributing guide](CONTRIBUTING.md). Found a bug in the SDK or an example, or need a feature? [Open an issue](https://github.com/flinker-app/ifc-viewer-examples/issues). For a demo problem, include the demo link and steps to reproduce it.
 
 ## Examples
 
