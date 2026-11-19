@@ -318,6 +318,35 @@
       "placementSourceUrl": "https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/09%20Praktijktoets%20georefereren.md"
     },
     {
+      "id": "golden-gate-bridge",
+      "name": "Golden Gate Bridge.ifc",
+      "format": "IFC",
+      "bytes": 8334145,
+      "sourceUrl": "https://www.fisheries.noaa.gov/inport/item/73386/full-list",
+      "license": "Apache-2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+      "noticeUrl": "https://viewer.flinker.app/examples/golden-gate-bridge/index.html#example-notices",
+      "attribution": "Original Flinker reconstruction from USGS 3DEP lidar and Golden Gate Bridge District public dimensions.",
+      "url": "https://raw.githubusercontent.com/flinker-app/ifc-sample-files/1e96bbd043bb2182935134651a13e6ad4ad50515/Golden_Gate_Bridge/Golden%20Gate%20Bridge.ifc",
+      "sha256": "6bf3cb2590ace574de9b004c0a55560134cc9c2feb4da4e959790b8001285732",
+      "notes": "Flinker authored the IFC4x3 geometry and map placement."
+    },
+    {
+      "id": "golden-gate-survey",
+      "name": "Golden Gate Bridge 2023.laz",
+      "format": "LAZ",
+      "bytes": 92012342,
+      "points": 21854294,
+      "sha256": "404ee4c8d080656f6b63867a77d6e2514d744b82de5840fa5a29de58699fc883",
+      "url": "https://raw.githubusercontent.com/flinker-app/ifc-sample-files/1e96bbd043bb2182935134651a13e6ad4ad50515/Golden_Gate_Bridge/Golden%20Gate%20Bridge%202023.laz",
+      "sourceUrl": "https://www.fisheries.noaa.gov/inport/item/73386/full-list",
+      "license": "Public domain",
+      "licenseUrl": "https://www.usgs.gov/3d-elevation-program/about-3dep-products-services",
+      "noticeUrl": "https://viewer.flinker.app/examples/golden-gate-lidar/index.html#example-notices",
+      "attribution": "2023 USGS 3D Elevation Program and NV5 Geospatial. Flinker clipped the public survey to the bridge corridor at full point density.",
+      "notes": "Flinker clipped the source survey to the bridge corridor at full point density and ordered the returns by acquisition time for lossless LAZ compression."
+    },
+    {
       "id": "rotterdam-project",
       "name": "Van Brienenoordbrug-IFC4X3.ifc",
       "format": "IFC",
@@ -469,6 +498,20 @@
       "id": "rotterdam-bridge",
       "assetIds": [
         "van-brienenoord"
+      ],
+      "presentation": "map"
+    },
+    {
+      "id": "golden-gate-bridge",
+      "assetIds": [
+        "golden-gate-bridge"
+      ],
+      "presentation": "map"
+    },
+    {
+      "id": "golden-gate-lidar",
+      "assetIds": [
+        "golden-gate-survey"
       ],
       "presentation": "map"
     },
@@ -1031,6 +1074,56 @@
       "audience": "BIM workflow",
       "guideHtml": "<h2 data-example-title>View a bridge on a map</h2>\r\n<p data-example-description>See how a bridge connects the surrounding roads across a river, and switch between street and satellite maps.</p>\r\n<h3>Try it</h3><ol><li>Use the map to locate the bridge relative to the roads and river.</li><li>Open View at the top right → Layers and choose Satellite or Street to compare the model with the surrounding area.</li><li>Zoom between the bridge and its wider setting.</li></ol><h2>Developer integration</h2><p>After <code>viewer.add()</code>, call <code>viewer.toggleMap(true)</code> to show the project's map context. The SDK owns map styles and terrain controls. The source placement and height limitations are listed under Model notes.</p><p>Copy this folder and serve it over HTTP, for example <code>python -m http.server 8080</code>. Open <code>http://localhost:8080/</code>; the SDK and sample downloads require internet access.</p>\r\n<p>The host uses <code>await viewer.IfcAPI</code> to open the hash-verified source, writes the projected CRS vertical datum with <code>WriteLine()</code>, and saves the edited bytes with <code>SaveModel()</code>. It closes the native model and disposes WASM before <code>viewer.add()</code>. See the <a href=\"https://thatopen.github.io/engine_web-ifc/docs/classes/web-ifc.IfcAPI.html\">complete web-ifc API reference</a>.</p><h3>Model notes</h3><p>Height datum set to NAP (inferred); geometry retained. The publisher reports a small XYZ offset. Optional terrain is a 30 m surface.</p>",
       "noticesHtml": "<h2>Sources and license notices</h2><p><a href=\"https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/data/voorbeeldmodellen_Infra/Van%20Brienenoordbrug-IFC4X3.ifc\" target=\"_blank\" rel=\"noopener noreferrer\">Geonovum and original model authors</a> · <a href=\"https://github.com/Geonovum/GeoBIM_Georefereren/blob/0fe0f5e89676de3d21fc3219eb5805b36e29e032/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">W3C</a></p>\r\n<p>The example supplements the missing vertical datum as NAP, inferred from the publisher’s successful height validation against AHN (NAP). Original geometry, map-conversion coordinates and heights are retained. The publisher reports a small XYZ offset against AHN. Copernicus is a 30 m surface model, so this is not a certified survey overlay.</p>"
+    },
+    {
+      "id": "golden-gate-bridge",
+      "path": "examples/golden-gate-bridge/index.html",
+      "href": "/examples/golden-gate-bridge/index.html",
+      "title": "View the Golden Gate Bridge on a map",
+      "category": "Infrastructure",
+      "description": "Explore the georeferenced IFC4x3 model of the Golden Gate Bridge and inspect its towers, deck and approaches on a map of San Francisco Bay.",
+      "capabilities": [
+        "IFC4x3",
+        "Bridges",
+        "Maps",
+        "Terrain"
+      ],
+      "formats": [
+        "IFC"
+      ],
+      "assetIds": [
+        "golden-gate-bridge"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/golden-gate-bridge/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2>Explore the bridge in context</h2>\n    <p>The IFC4x3 model opens on a map of San Francisco Bay. Use <strong>View → Layers</strong> to switch between street and satellite maps. Orbit to inspect the towers and deck, or select a component and open its properties from the selection count.</p>\n    <p>The model declares WGS 84 / UTM zone 10N (EPSG:32610) horizontally and NAVD88 height (EPSG:5703) vertically. Its IFC map conversion places the local origin at the San Francisco tower and rotates the longitudinal axis toward the Marin tower. A horizontal grid factor fits the published span length to the projected tower separation while preserving NAVD88 elevations.</p>\n    <p>The main span is 1,280.16&nbsp;m, each suspended side span is 342.90&nbsp;m, and the exterior deck width is 27.432&nbsp;m. The 2023 lidar fit uses 210 sampled stations along the roadway. The fitted tower tops are about 229.6&nbsp;m NAVD88. The cable curves, portal details, exterior piers, approach limits and other details between the survey references are reconstructed. Use the model for map placement and visual inspection.</p>",
+      "noticesHtml": "<h2>Sources and model licence</h2>\n    <p>The Golden Gate Bridge IFC is original geometry released under the <a href=\"https://www.apache.org/licenses/LICENSE-2.0\">Apache License 2.0</a>. The survey and references have their own credits below.</p>\n    <ul>\n      <li><a href=\"https://www.fisheries.noaa.gov/inport/item/73386/full-list\">2023 USGS Lidar: San Francisco, CA, NOAA InPort 73386</a> supplied the horizontal tower positions and observed deck elevations.</li>\n      <li><a href=\"https://www.goldengate.org/bridge/history-research/statistics-data/design-construction-stats/\">Golden Gate Bridge District design and construction statistics</a> supplied the published lengths, widths and cable diameter. The District’s <a href=\"https://www.goldengate.org/exhibits/hanging-the-roadway-deck/\">deck exhibit</a> supplied the truss depth and suspender spacing.</li>\n      <li><a href=\"https://www.loc.gov/item/38009362/\">1937 chief engineer’s report, Library of Congress</a> and the District’s <a href=\"https://www.goldengate.org/exhibits/fort-point-arch/\">Fort Point Arch exhibit</a> supplied the historical context for the visible approaches and arch.</li>\n      <li><a href=\"https://www.goldengate.org/bridge/bridge-maintenance/painting-the-bridge/\">Bridge District paint guidance</a> supplied the reference for International Orange.</li>\n    </ul>\n    <p>The model represents the visible exterior. Surveys, imagery and terrain may come from different dates and use different sampling resolutions.</p>"
+    },
+    {
+      "id": "golden-gate-lidar",
+      "path": "examples/golden-gate-lidar/index.html",
+      "href": "/examples/golden-gate-lidar/index.html",
+      "title": "Explore the Golden Gate Bridge lidar survey",
+      "category": "Reality capture",
+      "description": "Open the full-resolution USGS lidar scan on a map and inspect the surveyed towers and deck of the Golden Gate Bridge.",
+      "capabilities": [
+        "LiDAR",
+        "Georeferencing",
+        "Bridges",
+        "Maps"
+      ],
+      "formats": [
+        "LAZ"
+      ],
+      "assetIds": [
+        "golden-gate-survey"
+      ],
+      "steps": [],
+      "thumbnail": "/examples/golden-gate-lidar/thumbnail.webp",
+      "audience": "BIM workflow",
+      "guideHtml": "<h2>Explore the surveyed bridge</h2>\n    <p>The 92 MB LAZ opens at the Golden Gate using its embedded WGS 84 / Pseudo-Mercator coordinates (EPSG:3857). Elevations are in NAVD88 metres (EPSG:5703). Zoom toward either tower to see the scan refine. Use <strong>View → Layers</strong> to switch the basemap.</p>\n    <p>The cloud contains 21,854,294 returns in a 90 m wide corridor along the main span and approaches. Allow about 2.2 GB of temporary browser storage for indexing. Each return includes position, laser intensity and classification.</p>",
+      "noticesHtml": "<h2>Survey source and reuse</h2>\n    <p><a href=\"https://www.fisheries.noaa.gov/inport/item/73386/full-list\">2023 USGS Lidar: San Francisco, CA</a> was acquired by NV5 Geospatial for the USGS 3D Elevation Program. Flinker clipped all survey detail levels to the bridge corridor, retaining the point attributes and coordinates, and ordered the points by acquisition time for lossless LAZ compression. The survey is <a href=\"https://www.usgs.gov/3d-elevation-program/about-3dep-products-services\">public domain</a>.</p>"
     },
     {
       "id": "bcf-annotations",
