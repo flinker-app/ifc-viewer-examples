@@ -86,10 +86,11 @@ test('S1 edits native georeferencing records and preserves quoted property value
   const correction = new Function('withIfcModel', 'queryType', 'dms', `return ${correctSampleGeoreference.toString()};`)(
     async (blob, edit) => edit(api, 0), async (_api, _model, name) => groups[name], dms);
   const geo = { latitude: 51.44647556666666, longitude: 5.460151696111112, eastings: 160071.5, northings: 384156.5,
-    xAxisAbscissa: .6379617540893054, xAxisOrdinate: -.7700680491484481, scale: .001 };
+    xAxisAbscissa: .6379617540893054, xAxisOrdinate: -.7700680491484481, scale: .001, orthogonalHeight: 20 };
   assert.equal(await correction(new Blob(), geo), bytes);
   assert.deepEqual(site.RefLatitude.map(value => value.value), [51, 26, 47, 312040]);
   assert.deepEqual(site.RefLongitude.map(value => value.value), [5, 27, 36, 546106]);
+  assert.equal(site.RefElevation.value, 20000);
   assert.deepEqual(site.ObjectPlacement, { type: 5, value: 4 });
   assert.deepEqual(context.TrueNorth.args[0], [-geo.xAxisOrdinate, geo.xAxisAbscissa]);
   assert.equal(context.CoordinateSpaceDimension.value, 3);
@@ -99,10 +100,10 @@ test('S1 edits native georeferencing records and preserves quoted property value
   const sets = written.filter(line => line.type === 'IFCRELDEFINESBYPROPERTIES').map(line => line.args[5]);
   const conversion = sets.find(set => set.args[2].value === 'ePSet_MapConversion');
   assert.deepEqual(Object.fromEntries(conversion.args[4].map(property => [property.args[0].value, property.args[2].value])), {
-    Eastings: geo.eastings, Northings: geo.northings, OrthogonalHeight: 0,
+    Eastings: geo.eastings, Northings: geo.northings, OrthogonalHeight: geo.orthogonalHeight,
     XAxisAbscissa: geo.xAxisAbscissa, XAxisOrdinate: geo.xAxisOrdinate, Scale: geo.scale,
   });
-  assert.equal(sets.find(set => set.args[2].value === 'ePSet_ProjectedCRS').args[4].find(property => property.args[0].value === 'VerticalDatum').args[2].value, 'LOCAL');
+  assert.equal(sets.find(set => set.args[2].value === 'ePSet_ProjectedCRS').args[4].find(property => property.args[0].value === 'VerticalDatum').args[2].value, 'EPSG:5709');
 });
 
 test('the bridge validates its source and changes only the native CRS vertical datum', async () => {

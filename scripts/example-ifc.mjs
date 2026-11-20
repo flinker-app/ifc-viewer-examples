@@ -39,6 +39,33 @@ export function dms(value) {
     return [degrees, minutes, Math.floor(microseconds / 1e6), microseconds % 1e6].map(part => part * sign);
 }
 
+export async function restore3dBagGroundElevations(api, modelID) {
+    const entity = (name, ...args) => api.CreateIfcEntity(modelID, api.GetTypeCodeFromName(name), ...args);
+    const length = value => api.CreateIfcType(modelID, api.GetTypeCodeFromName('IFCLENGTHMEASURE'), value);
+    const heightBySet = new Map();
+    for (const set of await queryType(api, modelID, 'IFCPROPERTYSET')) {
+        if (set.Name?.value !== 'CPset_3dBAG-pand') continue;
+        const ground = set.HasProperties.map(ref => api.GetLine(modelID, ref.value))
+            .find(property => property.Name?.value === 'h_maaiveld');
+        heightBySet.set(set.expressID, Number(ground?.NominalValue?.value));
+    }
+    // This IFC stores each footprint at local zero and its NAP height as a property.
+    for (const relation of await queryType(api, modelID, 'IFCRELDEFINESBYPROPERTIES')) {
+        const height = heightBySet.get(relation.RelatingPropertyDefinition?.value);
+        if (!Number.isFinite(height)) continue;
+        for (const ref of relation.RelatedObjects) {
+            const building = api.GetLine(modelID, ref.value);
+            const placement = api.GetLine(modelID, building.ObjectPlacement.value);
+            const axes = api.GetLine(modelID, placement.RelativePlacement.value);
+            const [x, y, z] = api.GetLine(modelID, axes.Location.value).Coordinates.map(coordinate => Number(coordinate.value));
+            const point = entity('IFCCARTESIANPOINT', [length(x), length(y), length(z + height)]);
+            const raisedAxes = entity('IFCAXIS2PLACEMENT3D', point, axes.Axis, axes.RefDirection);
+            building.ObjectPlacement = entity('IFCLOCALPLACEMENT', placement.PlacementRelTo, raisedAxes);
+            api.WriteLine(modelID, building);
+        }
+    }
+}
+
 export async function correctSampleGeoreference(file, geo) {
     return withIfcModel(file, async (api, modelID) => {
         if (api.GetModelSchema(modelID) !== 'IFC2X3') throw new Error('The S1 correction requires the pinned IFC2X3 source.');
@@ -50,7 +77,7 @@ export async function correctSampleGeoreference(file, geo) {
         for (const site of await queryType(api, modelID, 'IFCSITE')) {
             site.RefLatitude = dms(geo.latitude).map(value => type('IFCINTEGER', value));
             site.RefLongitude = dms(geo.longitude).map(value => type('IFCINTEGER', value));
-            site.RefElevation = type('IFCLENGTHMEASURE', 0);
+            site.RefElevation = type('IFCLENGTHMEASURE', geo.orthogonalHeight / geo.scale);
             api.WriteLine(modelID, site);
         }
         for (const context of await queryType(api, modelID, 'IFCGEOMETRICREPRESENTATIONCONTEXT')) {
@@ -79,13 +106,14 @@ export async function correctSampleGeoreference(file, geo) {
         };
         pset('ePSet_ProjectedCRS', {
             Name: type('IFCLABEL', 'EPSG:28992'), MapUnit: type('IFCLABEL', 'METRE'),
-            Description: type('IFCTEXT', 'S1 example: published RD New horizontal placement; local model heights, no surveyed elevation'),
-            VerticalDatum: type('IFCLABEL', 'LOCAL'),
+            Description: type('IFCTEXT', 'S1 example: RD New horizontal placement and NAP heights for terrain comparison'),
+            VerticalDatum: type('IFCLABEL', 'EPSG:5709'),
         });
         pset('ePSet_MapConversion', Object.fromEntries(Object.entries({
-            Eastings: geo.eastings, Northings: geo.northings, OrthogonalHeight: 0,
+            Eastings: geo.eastings, Northings: geo.northings, OrthogonalHeight: geo.orthogonalHeight,
             XAxisAbscissa: geo.xAxisAbscissa, XAxisOrdinate: geo.xAxisOrdinate, Scale: geo.scale,
         }).map(([key, value]) => [key, type('IFCREAL', value)])));
+        if (geo.restoreGroundElevations) await restore3dBagGroundElevations(api, modelID);
         return api.SaveModel(modelID);
     });
 }
@@ -111,7 +139,7 @@ export async function correctSampleCrs(file, correction) {
 }
 
 export function syncExampleIfc({ check = false } = {}) {
-    const helpers = [withIfcModel, readIfcLines, queryType, dms, correctSampleGeoreference, correctSampleCrs];
+    const helpers = [withIfcModel, readIfcLines, queryType, dms, restore3dBagGroundElevations, correctSampleGeoreference, correctSampleCrs];
     for (const entry of readdirSync(new URL('../examples/', import.meta.url), { withFileTypes: true })) {
         if (!entry.isDirectory()) continue;
         const path = new URL(`../examples/${entry.name}/index.html`, import.meta.url);

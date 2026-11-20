@@ -177,7 +177,7 @@ for (const id of ['autzen', 'zurich-district', 'west-riverside-hospital']) {
     const opened = [], requests = [], messages = [];
     let incomplete = true;
     const viewer = {
-      ready: Promise.resolve(), setMessage: async (text, options) => { if (text !== null) messages.push({ text, ...options }); },
+      ready: Promise.resolve(), async enableCopilot() {}, setMessage: async (text, options) => { if (text !== null) messages.push({ text, ...options }); },
       add: async (...args) => { opened.push(args); }, toggleMap: async () => {},
     };
     const fetch = async url => { requests.push(url); return response(incomplete && url === assets.at(-1).url ? file.slice(0, 1) : file); };

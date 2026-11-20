@@ -41,13 +41,17 @@ for (const sample of catalog.examples) {
 for (const asset of catalog.assets) {
   assert(asset.sourceUrl && asset.license && asset.attribution && asset.noticeUrl, `Missing provenance: ${asset.id}`);
   assert(examples.some(example => asset.noticeUrl === `https://viewer.flinker.app/${example.path}#example-notices`), `Missing embedded notice: ${asset.noticeUrl}`);
+  if (asset.url?.includes('/flinker-app/ifc-sample-files/')) {
+    assert(/^https:\/\/raw\.githubusercontent\.com\/flinker-app\/ifc-sample-files\/[0-9a-f]{40}\//.test(asset.url)
+      && /^[0-9a-f]{64}$/.test(asset.sha256) && asset.notes?.trim(),
+      `Pin the sample file revision and checksum and document how the asset was prepared: ${asset.id}`);
+  }
 }
 const candidates = [...files('examples'), ...files('catalog')];
 for (const path of candidates) {
   assert(!/\.(wasm|ifc|laz|las|map|dll|exe)$/.test(path), `Implementation or model binary: ${path}`);
   if (!/\.(html|js|ts|json|css|txt|ids)$/.test(path)) continue;
   const text = readFileSync(path, 'utf8');
-  assert(!text.includes('flinker-app/ifc-sample-files'), `Use the original provider instead of a Flinker sample mirror: ${path}`);
   if (/\.(html|js|ts)$/.test(path)) checkPublicApi(path, text);
   assert(!/tempauth=|\beyJ[a-zA-Z0-9_-]{60}|BEGIN (?:RSA |EC )?PRIVATE KEY|(?:api[_-]?key|client[_-]?secret)\s*[:=]\s*["'][^"']{12}/i.test(text), `Possible credential: ${path}`);
   assert(!/(?:from\s*|import\s*\(|src=|href=)["'](?:\/?src\/|(?:\.\.\/)+src\/|(?:\.\.\/)+webgpu-viewer\/)/.test(text), `Private implementation import: ${path}`);

@@ -63,6 +63,7 @@ test('startup reuses imported annotations and restores the same saved topic', as
   const document = { body: { dataset: {} } }, restore = {}, retry = {};
   let failed = true;
   const viewer = {
+    async enableCopilot() {},
     async add(name, bytes) { imports.push(name); assert.equal(bytes.size, blob.size); },
     async selectTopic(id) { selections.push(id); if (failed) throw new Error('Interrupted view restoration'); },
     async setMessage(text, options) { if (options?.type === 'error') messages.push(text); },
