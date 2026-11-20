@@ -111,7 +111,7 @@ test('window widths partition correctly at threshold boundaries', async () => {
 });
 test('rapid host updates finish in order and recover after a failed update', async () => {
   const messages = [], controls = { disabled: false }, retry = { hidden: true }, document = { body: { dataset: {} } };
-  const viewer = { ready: Promise.resolve(), async setMessage(text) { if (text !== null) messages.push(text); } };
+  const viewer = { ready: Promise.resolve(), async enableCopilot() {}, async setMessage(text) { if (text !== null) messages.push(text); } };
   const { run } = example('window-width').make(['run'], { retryTask: undefined, updates: Promise.resolve(), pendingUpdates: 0, sourcesReady: true, controls, retry, document, viewer });
   let release, active = 0, maximum = 0; const order = [];
   const first = run(async () => { active++; maximum = Math.max(maximum, active); order.push('first'); await new Promise(resolve => { release = resolve; }); active--; throw new Error('A failed view'); });

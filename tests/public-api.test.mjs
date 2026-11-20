@@ -9,7 +9,7 @@ test('allows the complete native IFC API without a method allowlist', () => {
 });
 
 test('allows the constructor and documented instance methods', () => {
-  assert.doesNotThrow(() => checkPublicApi('example.js', "import { Viewer } from './sdk.js'; const viewer = new Viewer('#ifc-viewer'); await viewer.ready; await viewer.add('issues.bcf', blob); await viewer.selectTopic(topic.guid);"));
+  assert.doesNotThrow(() => checkPublicApi('example.js', "import { Viewer } from './sdk.js'; const viewer = new Viewer('#ifc-viewer'); await viewer.ready; await viewer.enableCopilot(); await viewer.add('issues.bcf', blob); await viewer.selectTopic(topic.guid);"));
 });
 
 test('allows topic IDs and captures while rejecting superseded viewer methods', () => {

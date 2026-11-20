@@ -14,7 +14,7 @@ for (const id of ['rotterdam-bridge', 's1-context', 's1-ids', 's1-structure', 's
     const opened = [], corrections = [], messages = [], maps = [], imported = new Set();
     const document = { body: { dataset: {} } }, retry = {};
     const viewer = {
-      ready: Promise.resolve(), async add(name, bytes) { opened.push([name, bytes]); },
+      ready: Promise.resolve(), async enableCopilot() {}, async add(name, bytes) { opened.push([name, bytes]); },
       async setMessage(message, options) { if (options?.type === 'error') messages.push(message); },
       async toggleMap(enabled) { maps.push(enabled); },
     };

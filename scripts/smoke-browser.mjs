@@ -148,6 +148,32 @@ try {
     await new Promise(resolve => isolatedServer.listen(0, '127.0.0.1', resolve));
     const isolatedUrl = `http://127.0.0.1:${isolatedServer.address().port}`;
     const isolated = await browser.newContext();
+    const copilotRequests = [];
+    await isolated.route(/\/api\/ifc-copilot(?:[/?]|$)/, route => {
+      copilotRequests.push(route.request().method());
+      return route.abort();
+    });
+    await isolated.addInitScript(() => {
+      let instance;
+      window.exampleCopilotEnabled = false;
+      window.exampleImportsBeforeCopilot = [];
+      Object.defineProperty(window, 'exampleViewer', {
+        configurable: true, get: () => instance,
+        set(viewer) {
+          instance = viewer;
+          const enable = viewer.enableCopilot, add = viewer.add;
+          viewer.enableCopilot = async function (...args) {
+            const result = await enable.apply(this, args);
+            window.exampleCopilotEnabled = true;
+            return result;
+          };
+          viewer.add = function (...args) {
+            if (!window.exampleCopilotEnabled) window.exampleImportsBeforeCopilot.push(args[0]);
+            return add.apply(this, args);
+          };
+        },
+      });
+    });
     if (development) await isolated.route(url + '/__viewer_sdk__/**', async route => {
       const response = await route.fetch();
       await route.fulfill({ response, headers: { ...response.headers(), 'access-control-allow-origin': '*' } });
@@ -177,11 +203,35 @@ try {
           await expect.poll(() => page.evaluate(() => Boolean(window.exampleViewer)), { timeout: 120000 }).toBe(true);
           await page.evaluate(() => Promise.race([window.exampleViewer.ready, new Promise((_, reject) =>
             setTimeout(() => reject(new Error('Standalone SDK initialization timed out')), 120000))]));
+          await expect.poll(() => page.evaluate(() => window.exampleCopilotEnabled), { timeout: 120000 }).toBe(true);
         })(), initializationError]);
         expect(localDependencies, example.path).toEqual([]);
+        expect(await page.evaluate(() => window.exampleImportsBeforeCopilot), example.path + ' enables Copilot before importing files').toEqual([]);
+        for (const viewport of [{ width: 1280, height: 800 }, { width: 390, height: 844 }]) {
+          await page.setViewportSize(viewport);
+          const copilot = page.getByRole('button', { name: 'Copilot', exact: true });
+          await expect(copilot).toBeVisible();
+          await copilot.click();
+          await expect(copilot).toHaveAttribute('aria-expanded', 'true');
+          const input = page.getByRole('textbox', { name: 'Copilot input', exact: true });
+          await expect(input).toBeVisible();
+          await expect.poll(() => input.evaluate(element => {
+            const bounds = element.getBoundingClientRect();
+            const target = element.ownerDocument.elementFromPoint(bounds.x + bounds.width / 2, bounds.y + bounds.height / 2);
+            return target === element || element.contains(target);
+          }), { message: `${example.path}: Copilot input is unobstructed at ${viewport.width}px` }).toBe(true);
+          await input.click({ trial: true });
+          const screenshotExample = examples.find(item => item.id === 'account') ?? examples[0];
+          if (example.id === screenshotExample.id) {
+            await page.screenshot({ path: `test-results/copilot-${viewport.width === 390 ? 'mobile' : 'desktop'}.png` });
+          }
+          await copilot.click();
+          await expect(copilot).toHaveAttribute('aria-expanded', 'false');
+        }
+        expect(copilotRequests, example.path + ' opens Copilot without any AI requests').toEqual([]);
         expect(errors, example.path).toEqual([]);
         await page.close();
-        console.log(`Verified isolated SDK initialization: ${example.path}`);
+        console.log(`Verified isolated SDK initialization and desktop/mobile Copilot: ${example.path}`);
       }
     } finally {
       await isolated.close();

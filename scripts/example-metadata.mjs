@@ -18,7 +18,7 @@ export function attributes(tag) {
 // Consumers can render these HTML fragments around an iframe of example.href.
 export function readDocumentation(html, id) {
   return new RegExp(`<template\\b(?=[^>]*\\bid=["']${id}["'])[^>]*>([\\s\\S]*?)<\\/template>`, 'i')
-    .exec(html)?.[1].trim() ?? '';
+    .exec(html)?.[1].replaceAll('\r\n', '\n').trim() ?? '';
 }
 export function readExample(html, path) {
   const head = /<head\b[^>]*>([\s\S]*?)<\/head>/i.exec(html)?.[1] ?? '';
